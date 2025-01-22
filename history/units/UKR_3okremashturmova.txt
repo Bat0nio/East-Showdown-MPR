@@ -1,0 +1,65 @@
+units = {
+	division = {
+		name = "1-y shturmovyy batalyon 3-a okrema shturmova bryhada"
+		location = 9469
+		officer = {
+			name = "Andrey Biletsky"
+			portraits = {
+		        army = {
+				    large = GFX_UKR_Andrey_Biletsky
+				    small = GFX_UKR_Andrey_Biletsky_small
+			    }
+		    }
+		}
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "2-y shturmovyy batalyon 3-a okrema shturmova bryhada"
+		location = 9469
+		officer = {
+			name = "Kombat «Barsik»"
+			portraits = {
+		        army = {
+				    large = GFX_UKR_Barsik
+				    small = GFX_UKR_Barsik_small
+			    }
+		    }
+		}
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "1-y mekhanizovanyy batalyon 3-a okrema shturmova bryhada"
+		location = 9469
+		division_template = "Mechanizirovaniy batalion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "2-y mekhanizovanyy batalyon 3-a okrema shturmova bryhada"
+		location = 9469
+		division_template = "Mechanizirovaniy batalion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "Tankovyy batalyon 3-a okrema shturmova bryhada"
+		location = 9469
+		division_template = "Batalion T-64"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		name = "1-y samokhidnyy artdyvizion 'Komanda Postril'"
+		location = 9469
+		division_template = "Artileriyskiy divizion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	
+}

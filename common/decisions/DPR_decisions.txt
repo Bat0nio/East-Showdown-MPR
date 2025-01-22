@@ -1,0 +1,549 @@
+DPR_update_category = {
+	DPR_mariupol_core = {
+		icon = generic_formable_nations
+		days_remove = 100
+		fire_only_once = no
+		cost = 200
+		
+		visible = {
+			original_tag = DPR
+			237 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 237
+				}
+				controls_state = 237
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 237
+					} 
+				}
+				DPR = {
+					add_state_core = 237
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 237
+					} 
+				}
+				DPR = {
+					add_state_core = 237
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 237
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	DPR_volnovaha_core = {
+		icon = generic_formable_nations
+		days_remove = 60
+		fire_only_once = no
+		cost = 100
+		
+		visible = {
+			original_tag = DPR
+			213 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 213
+				}
+				controls_state = 213
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 213
+					} 
+				}
+				DPR = {
+					add_state_core = 213
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 213
+					} 
+				}
+				DPR = {
+					add_state_core = 213
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 213
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	DPR_slavyansk_core = {
+		icon = generic_formable_nations
+		days_remove = 100
+		fire_only_once = no
+		cost = 200
+		
+		visible = {
+			original_tag = DPR
+			149 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 149
+				}
+				controls_state = 149
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 149
+					} 
+				}
+				DPR = {
+					add_state_core = 149
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 149
+					} 
+				}
+				DPR = {
+					add_state_core = 149
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 149
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	DPR_avdeevka_core = {
+		icon = generic_formable_nations
+		days_remove = 100
+		fire_only_once = no
+		cost = 200
+		
+		visible = {
+			original_tag = DPR
+			182 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 182
+				}
+				controls_state = 182
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 182
+					} 
+				}
+				DPR = {
+					add_state_core = 182
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 182
+					} 
+				}
+				DPR = {
+					add_state_core = 182
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 182
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	DPR_bahmut_core = {
+		icon = generic_formable_nations
+		days_remove = 80
+		fire_only_once = no
+		cost = 150
+		
+		visible = {
+			original_tag = DPR
+			165 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 165
+				}
+				controls_state = 165
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 165
+					} 
+				}
+				DPR = {
+					add_state_core = 165
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 165
+					} 
+				}
+				DPR = {
+					add_state_core = 165
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 165
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	DPR_severodonetsk_core = {
+		icon = generic_formable_nations
+		days_remove = 80
+		fire_only_once = no
+		cost = 150
+		
+		visible = {
+			original_tag = DPR
+			145 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 145
+				}
+				controls_state = 145
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 145
+					} 
+				}
+				DPR = {
+					add_state_core = 145
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 145
+					} 
+				}
+				DPR = {
+					add_state_core = 145
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 145
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	DPR_schaste_core = {
+		icon = generic_formable_nations
+		days_remove = 60
+		fire_only_once = no
+		cost = 50
+		
+		visible = {
+			original_tag = DPR
+			154 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 154
+				}
+				controls_state = 154
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 154
+					} 
+				}
+				DPR = {
+					add_state_core = 154
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 154
+					} 
+				}
+				DPR = {
+					add_state_core = 154
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 154
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	DPR_starobelsk_core = {
+		icon = generic_formable_nations
+		days_remove = 60
+		fire_only_once = no
+		cost = 50
+		
+		visible = {
+			original_tag = DPR
+			125 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 125
+				}
+				controls_state = 125
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 125
+					} 
+				}
+				DPR = {
+					add_state_core = 125
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 125
+					} 
+				}
+				DPR = {
+					add_state_core = 125
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 125
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	DPR_svatovo_core = {
+		icon = generic_formable_nations
+		days_remove = 60
+		fire_only_once = no
+		cost = 50
+		
+		visible = {
+			original_tag = DPR
+			116 = {
+				NOT = {
+					is_core_of = DPR
+				}
+	        }
+		}
+
+		available = {
+			has_completed_focus = DPR_RUSSIAN_WORLD
+			OR = {
+				RUS = { 
+					controls_state = 116
+				}
+				controls_state = 116
+			}
+		}
+
+		remove_effect = {
+            if = {
+                limit = { 
+					DPR = { 
+						controls_state = 116
+					} 
+				}
+				DPR = {
+					add_state_core = 116
+				}
+			}
+			if = {
+                limit = { 
+					RUS = { 
+						controls_state = 116
+					} 
+				}
+				DPR = {
+					add_state_core = 116
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 116
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

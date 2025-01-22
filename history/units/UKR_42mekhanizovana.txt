@@ -1,0 +1,34 @@
+
+units = {
+	division = {
+		name = "1-y mekhanizovanyy batalyon 42-a mekhanizovana bryhada"
+		location = 9469
+		officer = {
+			name = "Volodimir Bolekhan"
+		}
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "2-y mekhanizovanyy batalyon 42-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "3-y mekhanizovanyy batalyon 42-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "4-y mekhanizovanyy batalyon 42-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+}

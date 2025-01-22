@@ -1,0 +1,19 @@
+technologies = {
+    enable_armor = {
+        allow = {
+            always = no
+        }
+        enable_subunits = {
+            Abrams
+            Leopard
+            Challenger
+            Leclerc
+            BMPT
+            BMP_nato
+            T_80
+            T_90
+            T_14
+            TOS
+        }
+    }
+}

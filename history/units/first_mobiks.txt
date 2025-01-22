@@ -1,0 +1,297 @@
+units = {
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 10067
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+	division = {
+		
+		location = 2371
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0
+		start_equipment_factor = 0.01
+	}
+}

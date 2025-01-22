@@ -1,0 +1,46 @@
+units = {
+	division = {
+		name = "1-y batalyon 1-a okrema bryhada specialnogo pryznachena"
+		location = 9469
+		officer = {
+			name = "Oleg Uminsky"
+			portraits = {
+		        army = {
+				    large = GFX_UKR_Oleg_Uminsky
+				    small = GFX_UKR_Oleg_Uminsky_small
+			    }
+		    }
+		}
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "2-y batalyon 1-a okrema bryhada specialnogo pryznachena"
+		location = 9469
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "3-y batalyon 1-a okrema bryhada specialnogo pryznachena"
+		location = 9469
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "4-y batalyon 1-a okrema bryhada specialnogo pryznachena"
+		location = 9469
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+		division = {
+		name = "4-y batalyon 1-a okrema bryhada specialnogo pryznachena"
+		location = 9469
+		division_template = "SSO batalyon"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+}

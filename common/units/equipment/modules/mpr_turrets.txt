@@ -1,0 +1,427 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+
+##################### Turret
+
+	tank_lturret_1 = {
+		abbreviation = "lturret_1"
+		category = tank_light_turret
+
+		add_stats = {
+			build_cost_ic = 0.5
+		}
+		multiply_stats = {
+			recon = 0.01 #was 0.02 reduced by 50%
+		}
+		dismantle_cost_ic = 0.03
+
+		xp_cost = 5
+	}
+
+	tank_lturret_2 = {
+		abbreviation = "lturret_2"
+		category = tank_light_turret
+
+		add_stats = {
+			build_cost_ic = 2
+		}
+		multiply_stats = {
+			breakthrough = 0.05 #was 0.1 reduced by 50%
+			defense = 0.03 #was 0.05 reduced by 50%
+			air_attack = 0.01 #was 0.01 reduced by 50%
+			reliability = -0.02
+			recon = 0.02 #was 0.04 reduced by 50%
+		}
+		dismantle_cost_ic = 0.10
+
+		xp_cost = 15
+	}
+
+	tank_lturret_3 = {
+		abbreviation = "lturret_3"
+		category = tank_light_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_lightAA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 4
+		}
+		multiply_stats = {
+			armor_value = 0.05
+			breakthrough = 0.05 #was 0.1 reduced by 50%
+			defense = 0.04 #was 0.08 reduced by 50%
+			air_attack = 0.01 #was 0.01 reduced by 50%
+			maximum_speed = -0.05
+			reliability = -0.04
+			recon = 0.02 #was 0.04 reduced by 50%
+		}
+		dismantle_cost_ic = 0.20
+
+		xp_cost = 20
+	}
+
+	tank_mturret_1 = {
+		abbreviation = "mturret_1"
+		category = tank_medium_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_lightAA_guns
+				tank_medium_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 1
+		}
+		multiply_stats = {
+			armor_value = 0.05
+			breakthrough = 0.05 #was 0.1 reduced by 50%
+			defense = 0.03 #was 0.05 reduced by 50%
+			air_attack = 0.01 #was 0.01 reduced by 50%
+			maximum_speed = -0.02
+			recon = -0.05
+		}
+		dismantle_cost_ic = 0.05
+
+		xp_cost = 10
+	}
+
+	tank_mturret_2 = {
+		abbreviation = "mturret_2"
+		category = tank_medium_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_lightAA_guns
+				tank_medium_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 2.5
+		}
+		multiply_stats = {
+			armor_value = 0.08
+			breakthrough = 0.05 #was 0.1 reduced by 50%
+			defense = 0.04 #was 0.08 reduced by 50%
+			air_attack = 0.01 #was 0.01 reduced by 50%
+			maximum_speed = -0.02
+			recon = -0.03
+		}
+		dismantle_cost_ic = 0.13
+
+		xp_cost = 15
+	}
+
+	tank_mturret_3 = {
+		abbreviation = "mturret_3"
+		category = tank_medium_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_lightAA_guns
+				tank_medium_guns
+				tank_heavy_guns
+				tank_dopA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 4
+		}
+		multiply_stats = {
+			armor_value = 0.1
+			breakthrough = 0.09 #was 0.18 reduced by 50%
+			defense = 0.06 #was 0.12 reduced by 50%
+			air_attack = 0.01 #was 0.01 reduced by 50%
+			maximum_speed = -0.03
+		}
+		dismantle_cost_ic = 0.20
+
+		xp_cost = 20
+	}
+
+	tank_mturret_h = {
+		abbreviation = "mturret_h"
+		category = tank_medium_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lart_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 5
+		}
+		multiply_stats = {
+			armor_value = 0.05
+			breakthrough = 0.05 #was 0.1 reduced by 50%
+			defense = 0.04 #was 0.07 reduced by 50%
+			air_attack = 0.01 #was 0.02 reduced by 50%
+			maximum_speed = -0.05
+		}
+		dismantle_cost_ic = 0.25
+
+		xp_cost = 15
+	}
+
+	tank_mturret_b1 = {
+		abbreviation = "mturret_b1"
+		category = tank_medium_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_lightAA_guns
+				tank_medium_guns
+				tank_heavy_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 6
+		}
+		multiply_stats = {
+			armor_value = 0.1
+			breakthrough = 0.10 #was 0.2 reduced by 50%
+			defense = 0.07 #was 0.15 reduced by 50%
+			air_attack = 0.01 #was 0.03 reduced by 50%
+			maximum_speed = -0.05
+			reliability = -0.05
+			recon = 0.02 #was 0.04 reduced by 50%
+		}
+		dismantle_cost_ic = 0.30
+
+		xp_cost = 25
+	}
+
+	tank_mturret_b2 = {
+		abbreviation = "mturret_b2"
+		category = tank_medium_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_lightAA_guns
+				tank_medium_guns
+				tank_heavy_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 8
+		}
+		multiply_stats = {
+			armor_value = 0.13
+			breakthrough = 0.12 #was 0.25 reduced by 50%
+			defense = 0.10 #was 0.2 reduced by 50%
+			air_attack = 0.02 #was 0.04 reduced by 50%
+			maximum_speed = -0.05
+			reliability = -0.05
+			recon = 0.03 #was 0.06 reduced by 50%
+		}
+		dismantle_cost_ic = 0.40
+
+		xp_cost = 30
+	}
+
+	tank_hturret_1 = {
+		abbreviation = "hturret_1"
+		category = tank_heavy_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_medium_guns
+				tank_heavy_guns
+				tank_superheavy_guns
+			}
+			additional_armament_slot = {
+				tank_dopA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 4
+		}
+		multiply_stats = {
+			armor_value = 0.03
+			breakthrough = 0.03 #was 0.06 reduced by 50%
+			defense = 0.01 #was 0.03 reduced by 50%
+			maximum_speed = -0.2
+			recon = -0.05
+		}
+		dismantle_cost_ic = 0.20
+
+		xp_cost = 15
+	}
+
+	tank_hturret_2 = {
+		abbreviation = "hturret_2"
+		category = tank_heavy_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_medium_guns
+				tank_heavy_guns
+				tank_superheavy_guns
+				tank_dopA_guns
+			}
+			additional_armament_slot = {
+				tank_dopA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 5
+		}
+		multiply_stats = {
+			armor_value = 0.06
+			breakthrough = 0.05 #was 0.1 reduced by 50%
+			defense = 0.03 #was 0.05 reduced by 50%
+			maximum_speed = -0.2
+		}
+		dismantle_cost_ic = 0.25
+
+		xp_cost = 25
+	}
+
+	tank_hturret_3 = {
+		abbreviation = "hturret_3"
+		category = tank_heavy_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_lightA_guns
+				tank_medium_guns
+				tank_heavy_guns
+				tank_superheavy_guns
+				tank_dopA_guns
+			}
+			additional_armament_slot = {
+				tank_dopA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 10
+		}
+		multiply_stats = {
+			armor_value = 0.1
+			breakthrough = 0.10 #was 0.2 reduced by 50%
+			defense = 0.07 #was 0.15 reduced by 50%
+			air_attack = 0.01 #was 0.01 reduced by 50%
+			maximum_speed = -0.18
+			reliability = -0.05
+			recon = 0.03 #was 0.05 reduced by 50%
+		}
+		dismantle_cost_ic = 0.50
+
+		xp_cost = 35
+	}
+
+	tank_hturret_h1 = {
+		abbreviation = "hturret_h1"
+		category = tank_heavy_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_art_guns
+				tank_lart_guns
+				tank_dopA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 7
+		}
+		multiply_stats = {
+			armor_value = 0.03
+			breakthrough = 0.03 #was 0.06 reduced by 50%
+			defense = 0.01 #was 0.03 reduced by 50%
+			maximum_speed = -0.2
+		}
+		dismantle_cost_ic = 0.35
+
+		xp_cost = 20
+	}
+
+	tank_hturret_h2 = {
+		abbreviation = "hturret_h2"
+		category = tank_heavy_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_art_guns
+				tank_lart_guns
+				tank_dopA_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 13
+		}
+		multiply_stats = {
+			armor_value = 0.1
+			breakthrough = 0.10 #was 0.2 reduced by 50%
+			defense = 0.07 #was 0.15 reduced by 50%
+			maximum_speed = -0.18
+			reliability = -0.05
+		}
+		dismantle_cost_ic = 0.65
+
+		xp_cost = 30
+	}
+
+	tank_hturret_l1 = {
+		abbreviation = "hturret_l"
+		category = tank_l1_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_mlrs_light_guns
+			}
+		}
+
+		multiply_stats = {
+			maximum_speed = -0.05
+			reliability = 0.05
+		}
+
+		xp_cost = 5
+	}
+
+	tank_hturret_l2 = {
+		abbreviation = "hturret_l"
+		category = tank_l2_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_superheavy_guns
+				tank_mlrs_light_guns
+				tank_mlrs_guns
+			}
+		}
+
+		multiply_stats = {
+			maximum_speed = -0.05
+			reliability = 0.05
+		}
+
+		xp_cost = 5
+	}
+
+}

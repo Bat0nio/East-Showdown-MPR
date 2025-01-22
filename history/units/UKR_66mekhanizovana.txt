@@ -1,0 +1,47 @@
+
+units = {
+	division = {
+		name = "1-y mekhanizovanyy batalyon 66-a mekhanizovana bryhada"
+		location = 9469
+		officer = {
+			name = "Oleg Degtyarev"
+			portraits = {
+		        army = {
+				    large = GFX_UKR_Oleg_Degtyarev
+				    small = GFX_UKR_Oleg_Degtyarev_small
+			    }
+		    }
+		}
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "2-y mekhanizovanyy batalyon 66-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "3-y mekhanizovanyy batalyon 66-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "1-y tankovyy batalyon 66-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Batalion T-72"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "1-y artyleriyskyy dyvizion 66-a mekhanizovana bryhada"
+		location = 9469
+		division_template = "Artileriyskiy divizion"
+		start_experience_factor = 0.40 #was 0.8 reduced by 50%
+		start_equipment_factor = 0.01
+	}
+}

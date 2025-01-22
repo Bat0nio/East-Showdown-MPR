@@ -1,0 +1,31 @@
+
+units = {
+	division = {
+		name = "1-y egerskiy batalyon 71-ma egerskaya bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "2-y egerskiy batalyon 71-ma egerskaya bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "3-y egerskiy batalyon 71-ma egerskaya bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "4-y egerskiy batalyon 71-ma egerskaya bryhada"
+		location = 9469
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.01
+	}
+}

@@ -1,0 +1,595 @@
+division_template = {
+	name = "141-iy specialniy motorizovanniy polk imeni A. A. Kadyrova"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = CHE_INF_01
+	#division_names_group = RUS_RART_01
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		spetsnaz = {
+			x = 2
+			y = 0
+		}
+		spetsnaz = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 1
+			y = 0
+		}
+	}
+}
+division_template = {
+	name = "249-yi otdelnyi spetsialnyi motorizovanniy batalyon «Yug»"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = CHE_INF_01
+	#division_names_group = RUS_RART_01
+	regiments = {
+		spetsnaz = {
+			x = 0
+			y = 0
+		}
+		spetsnaz = {
+			x = 0
+			y = 1
+		}
+		spetsnaz = {
+			x = 0
+			y = 2
+		}
+		spetsnaz = {
+			x = 0
+			y = 3
+		}
+		spetsnaz = {
+			x = 1
+			y = 0
+		}
+		spetsnaz = {
+			x = 1
+			y = 1
+		}
+		spetsnaz = {
+			x = 1
+			y = 2
+		}
+		spetsnaz = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 1
+			y = 0
+		}
+		recon = {
+			x = 1
+			y = 1
+		}
+	}
+}
+division_template = {
+	name = "batalyon «Smert»"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = CHE_INF_01
+	#division_names_group = RUS_RART_01
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		signal_company = {
+			x = 0
+			y = 1
+		}
+		recon = {
+			x = 0
+			y = 2
+		}
+		sniper = {
+			x = 1
+			y = 0
+		}
+		mortar = {
+			x = 1
+			y = 1
+		}
+		field_hospital = {
+			x = 1
+			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Specialny otryad bistrogo reagirovanya «Ahmat»"
+	is_locked = no
+	force_allow_recruiting = yes
+	regiments = {
+		spetsnaz = {
+			x = 0
+			y = 0
+		}
+		spetsnaz = {
+			x = 0
+			y = 1
+		}
+		spetsnaz = {
+			x = 0
+			y = 2
+		}
+		spetsnaz = {
+			x = 0
+			y = 3
+		}
+		spetsnaz = {
+			x = 0
+			y = 4
+		}
+		spetsnaz = {
+			x = 1
+			y = 0
+		}
+		spetsnaz = {
+			x = 1
+			y = 1
+		}
+		spetsnaz = {
+			x = 1
+			y = 2
+		}
+		spetsnaz = {
+			x = 1
+			y = 3
+		}
+		spetsnaz = {
+			x = 1
+			y = 4
+		}
+	}
+	support = {
+		signal_company = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		sniper = {
+			x = 0
+			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Polk politsii spetsialnogo naznacheniya imeni A. A. Kadyrova"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = CHE_INF_01
+	#division_names_group = RUS_RART_01
+	regiments = {
+		spetsnaz = {
+			x = 0
+			y = 0
+		}
+		spetsnaz = {
+			x = 0
+			y = 1
+		}
+		spetsnaz = {
+			x = 0
+			y = 2
+		}
+		spetsnaz = {
+			x = 0
+			y = 3
+		}
+		spetsnaz = {
+			x = 1
+			y = 0
+		}
+		spetsnaz = {
+			x = 1
+			y = 1
+		}
+		spetsnaz = {
+			x = 1
+			y = 2
+		}
+		spetsnaz = {
+			x = 1
+			y = 3
+		}
+		spetsnaz = {
+			x = 2
+			y = 0
+		}
+		spetsnaz = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 1
+			y = 0
+		}
+		sniper = {
+			x = 1
+			y = 1
+		}
+	}
+}
+division_template = {
+	name = "Otryad mobilniy osobogo naznacheniya «Ahmat-Grozny»"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = CHE_INF_01
+	#division_names_group = RUS_RART_01
+	regiments = {
+		spetsnaz = {
+			x = 0
+			y = 0
+		}
+		spetsnaz = {
+			x = 0
+			y = 1
+		}
+		spetsnaz = {
+			x = 0
+			y = 2
+		}
+		spetsnaz = {
+			x = 0
+			y = 3
+		}
+		spetsnaz = {
+			x = 1
+			y = 0
+		}
+		spetsnaz = {
+			x = 1
+			y = 1
+		}
+		spetsnaz = {
+			x = 1
+			y = 2
+		}
+		spetsnaz = {
+			x = 1
+			y = 3
+		}
+		BTR = {
+			x = 2
+			y = 0
+		}
+		BTR = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		recon = {
+			x = 1
+			y = 0
+		}
+		sniper = {
+			x = 1
+			y = 1
+		}
+		atgm = {
+			x = 1
+			y = 2
+		}
+	}
+}
+division_template = {
+	name = "Neftyanoyi polk"
+	is_locked = no
+	force_allow_recruiting = yes
+	division_names_group = CHE_INF_01
+	#division_names_group = RUS_RART_01 # Группа названий для дивизий, необязательно
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		BMP_1 = {
+			x = 2
+			y = 0
+		}
+		BMP_1 = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		recon = {
+			x = 1
+			y = 0
+		}
+		sniper = {
+			x = 1
+			y = 1
+		}
+		mortar = {
+			x = 1
+			y = 2
+		}
+	}
+}
+units = {
+	division = {
+		name = "141-iy specialniy motorizovanniy polk imeni A. A. Kadyrova"
+		officer = {
+			name = "Alibek Delimkhanov"
+			portraits = {
+		        army = {
+				    large = GFX_CHE_idea_Delimkhanov
+				    small = GFX_CHE_idea_Delimkhanov_small
+			    }
+		    }
+		}
+		location = 7953
+		division_template = "141-iy specialniy motorizovanniy polk imeni A. A. Kadyrova"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "batalyon «Smert»"
+		officer = {
+			name = "Ruslan Azizov «Stinger»"
+			portraits = {
+		        army = {
+				    large = GFX_CHE_idea_Azizov
+				    small = GFX_CHE_idea_Azizov_small
+			    }
+		    }
+		}
+		location = 18151
+		division_template = "batalyon «Smert»"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Otryad mobilniy osobogo naznacheniya «Ahmat-Grozny»"
+		officer = {
+			name = "Anzor Bisaev"
+			portraits = {
+		        army = {
+				    large = GFX_CHE_idea_Bisaev
+				    small = GFX_CHE_idea_Bisaev_small
+			    }
+		    }
+		}
+		location = 17162
+		division_template = "Otryad mobilniy osobogo naznacheniya «Ahmat-Grozny»"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Polk politsii spetsialnogo naznacheniya imeni A. A. Kadyrova"
+		officer = {
+			name = "Mezhed Utsmigov «Mujahid»"
+			portraits = {
+		        army = {
+				    large = GFX_CHE_idea_Utsmigov
+				    small = GFX_CHE_idea_Utsmigov_small
+			    }
+		    }
+		}
+		location = 17162
+		division_template = "Polk politsii spetsialnogo naznacheniya imeni A. A. Kadyrova"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Specialny otryad bistrogo reagirovanya «Ahmat»"
+		officer = {
+			name = "Ahmed Saidarkhanov «Kombat»"
+			portraits = {
+		        army = {
+				    large = GFX_CHE_idea_Saidarkhanov
+				    small = GFX_CHE_idea_Saidarkhanov_small
+			    }
+		    }
+		}
+		location = 7699
+		division_template = "Specialny otryad bistrogo reagirovanya «Ahmat»"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "249-yi otdelnyi spetsialnyi motorizovanniy batalyon «Yug»"
+		officer = {
+			name = "Saydi Lorsanukaev"
+			portraits = {
+		        army = {
+				    large = GFX_CHE_idea_Lorsanukaev
+				    small = GFX_CHE_idea_Lorsanukaev_small
+			    }
+		    }
+		}
+		location = 10600
+		division_template = "249-yi otdelnyi spetsialnyi motorizovanniy batalyon «Yug»"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1-yi batalyon 1-ogo neftyanogo polka"
+		location = 3506
+		division_template = "Neftyanoyi polk"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2-oi batalyon 1-ogo neftyanogo polka"
+		location = 1119
+		division_template = "Neftyanoyi polk"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

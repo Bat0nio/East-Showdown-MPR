@@ -1,0 +1,252 @@
+equipments = {
+	infantry_anti_tank_equipment = {
+		year = 2022
+
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+
+		interface_category = interface_category_land
+
+		active = no
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4.50 #was 9.0 reduced by 50%
+		breakthrough = 0.00 #was 0.0 reduced by 50%
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+		hard_attack = 2.50 #was 5.0 reduced by 50%
+		ap_attack = 84.50 #was 65.0 increased by 30%
+		air_attack = 0.00 #was 0.0 reduced by 50%
+
+		#Space taken in convoy
+		lend_lease_cost = 3
+
+		build_cost_ic = 2
+		resources = {
+			tungsten = 2
+			steel = 2
+		}
+
+	}
+
+
+	infantry_anti_tank_equipment_0 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+	infantry_anti_tank_equipment_1 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = infantry_anti_tank_equipment_0
+		priority = 10
+		visual_level = 1
+
+		hard_attack = 3.00 #was 6.0 reduced by 50%
+		ap_attack = 91.00 #was 70.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	infantry_anti_tank_equipment_2 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = infantry_anti_tank_equipment_1
+		priority = 10
+		visual_level = 2
+
+		hard_attack = 4.25 #was 8.5 reduced by 50%
+		ap_attack = 104.00 #was 80.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1.1
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+
+	}
+
+	infantry_anti_tank_equipment_3 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = infantry_anti_tank_equipment_2
+		priority = 10
+		visual_level = 3
+
+		hard_attack = 5.00 #was 10.0 reduced by 50%
+		ap_attack = 123.50 #was 95.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1.2
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	nto_infantry_anti_tank_equipment_0 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+
+
+	nto_infantry_anti_tank_equipment_1 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = nto_infantry_anti_tank_equipment_0
+		priority = 10
+		visual_level = 1
+
+		hard_attack = 3.00 #was 6.0 reduced by 50%
+		ap_attack = 91.00 #was 70.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	nto_infantry_anti_tank_equipment_2 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = nto_infantry_anti_tank_equipment_1
+		priority = 10
+		visual_level = 2
+
+		hard_attack = 4.25 #was 8.5 reduced by 50%
+		ap_attack = 130.00 #was 100.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1.1
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+
+	}
+
+	nto_infantry_anti_tank_equipment_3 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = nto_infantry_anti_tank_equipment_2
+		priority = 10
+		visual_level = 3
+
+		hard_attack = 5.00 #was 10.0 reduced by 50%
+		ap_attack = 143.00 #was 110.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1.2
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	ukr_infantry_anti_tank_equipment_0 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+	ukr_infantry_anti_tank_equipment_1 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = ukr_infantry_anti_tank_equipment_0
+		priority = 10
+		visual_level = 1
+
+		hard_attack = 3.00 #was 6.0 reduced by 50%
+		ap_attack = 91.00 #was 70.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+
+	ukr_infantry_anti_tank_equipment_2 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = ukr_infantry_anti_tank_equipment_1
+		priority = 10
+		visual_level = 2
+
+		hard_attack = 4.25 #was 8.5 reduced by 50%
+		ap_attack = 104.00 #was 80.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1.1
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+
+	}
+
+	ukr_infantry_anti_tank_equipment_3 = {
+		year = 2022
+
+		archetype = infantry_anti_tank_equipment
+		parent = ukr_infantry_anti_tank_equipment_2
+		priority = 10
+		visual_level = 3
+
+		hard_attack = 5.00 #was 10.0 reduced by 50%
+		ap_attack = 123.50 #was 95.0 increased by 30%
+		soft_attack = 2.25 #was 4.5 reduced by 50%
+
+		reliability = 0.8
+		build_cost_ic = 1.2
+		resources = {
+			tungsten = 2
+			steel = 1
+		}
+	}
+}

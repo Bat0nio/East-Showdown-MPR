@@ -1,0 +1,54 @@
+units = {
+	division = {
+		name = "Batalion Amurskiy"
+		location = 3601
+		division_template = "Motostrelkoviy batalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batalion Baykal"
+		location = 3601
+		division_template = "Batalion BARS"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batalion Zaurskiy"
+		location = 3601
+		division_template = "Batalion BARS"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batalion Vega"
+		location = 3601
+		division_template = "Batalion BARS"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batalion Toyan"
+		location = 3601
+		division_template = "Batalion BARS"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batalion Bootur"
+		location = 3601
+		division_template = "Batalion BARS"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}

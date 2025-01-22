@@ -1,0 +1,339 @@
+
+division_template = {
+	name = "Garnison"
+	is_locked = no
+	force_allow_recruiting = yes
+	priority = 0
+	regiments = {
+		opolchenie = {
+			x = 0
+			y = 0
+		}
+		opolchenie = {
+			x = 0
+			y = 1
+		}
+		opolchenie = {
+			x = 0
+			y = 2
+		}
+		opolchenie = {
+			x = 0
+			y = 3
+		}
+		opolchenie = {
+			x = 0
+			y = 4
+		}
+	}
+}
+division_template = {
+	name = "NATO battalion"
+	is_locked = yes
+	force_allow_recruiting = no
+	division_names_group = NTO_MEC_01
+	regiments = {
+		Abrams = {
+			x = 0
+			y = 0
+		}
+		Abrams = {
+			x = 0
+			y = 1
+		}
+		BMP_nato = {
+			x = 1
+			y = 0
+		}
+		BMP_nato = {
+			x = 1
+			y = 1
+		}
+		BMP_nato = {
+			x = 1
+			y = 2
+		}
+		BMP_nato = {
+			x = 1
+			y = 3
+		}
+		BMP_nato = {
+			x = 2
+			y = 0
+		}
+		BMP_nato = {
+			x = 2
+			y = 1
+		}
+		BMP_nato = {
+			x = 2
+			y = 2
+		}
+		BMP_nato = {
+			x = 2
+			y = 3
+		}
+	}
+	support = {
+		field_hospital = {
+			x = 0
+			y = 0
+		}
+		signal_company = {
+			x = 0
+			y = 1
+		}
+		logistics_company = {
+			x = 0
+			y = 2
+		}
+		engineer = {
+			x = 0
+			y = 3
+		}
+		recon = {
+			x = 0
+			y = 4
+		}
+		maintenance_company = {
+			x = 0
+			y = 5
+		}
+		atgm = {
+			x = 1
+			y = 0
+		}	
+		mortar = {
+			x = 1
+			y = 1
+		}
+		artillery = {
+			x = 1
+			y = 2
+		}
+		sniper = {
+			x = 1
+			y = 3
+		}
+	}
+}
+
+### Added with MPR
+division_template = {
+	name = "Volunteers"
+	is_locked = yes
+	force_allow_recruiting = yes
+	regiments = {
+		spetsnaz = {
+			x = 0
+			y = 0
+		}
+		spetsnaz = {
+			x = 0
+			y = 1
+		}
+		spetsnaz = {
+			x = 0
+			y = 2
+		}
+		spetsnaz = {
+			x = 0
+			y = 3
+		}
+		marine = {
+			x = 0
+			y = 4
+		}
+		spetsnaz = {
+			x = 1
+			y = 0
+		}
+		spetsnaz = {
+			x = 1
+			y = 1
+		}
+		spetsnaz = {
+			x = 1
+			y = 2
+		}
+		spetsnaz = {
+			x = 1
+			y = 3
+		}
+		marine = {
+			x = 1
+			y = 4
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		recon = {
+			x = 0
+			y = 3
+		}
+		logistics_company = {
+			x = 0
+			y = 4
+		}
+		artillery = {
+			x = 1
+			y = 0
+		}		
+		maintenance_company = {
+			x = 1
+			y = 1
+		}		
+		sniper = {
+			x = 1
+			y = 2
+		}		
+		atgm = {
+			x = 1
+			y = 3
+		}	
+		mortar = {
+			x = 1
+			y = 4
+		}
+	}
+}
+###
+
+
+### MPR
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 18166
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 18165
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 18165
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 18165
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 18165
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 18167
+		division_template = "Volunteers"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+}
+###
+
+#СКЛАДЫ

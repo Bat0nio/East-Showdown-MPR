@@ -1,0 +1,306 @@
+### TEMPLATE MPR
+division_template = {
+	name = "Batalion CHVK Wagnera"
+	division_names_group = WGN_INF_01
+	is_locked = yes
+	priority = 2
+	regiments = {
+		CHVK_vagner = {
+			x = 0
+			y = 0
+		}
+		CHVK_vagner = {
+			x = 0
+			y = 1
+		}
+		CHVK_vagner = {
+			x = 0
+			y = 2
+		}
+		CHVK_vagner = {
+			x = 0
+			y = 3
+		}
+		CHVK_vagner = {
+			x = 1
+			y = 0
+		}
+		CHVK_vagner = {
+			x = 1
+			y = 1
+		}
+		CHVK_vagner = {
+			x = 1
+			y = 2
+		}
+		CHVK_vagner = {
+			x = 1
+			y = 3
+		}
+		Polevoi_SAU = {
+			x = 2
+			y = 0
+		}
+		Polevoi_SAU = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		signal_company = {
+			x = 0
+			y = 2
+		}
+		recon = {
+			x = 0
+			y = 3
+		}
+		logistics_company = {
+			x = 0
+			y = 4
+		}
+		ZRK_sredny = {
+			x = 0
+			y = 5
+		}
+		artillery = {
+			x = 1
+			y = 0
+		}		#не баг
+		maintenance_company = {
+			x = 1
+			y = 1
+		}		#не баг
+		sniper = {
+			x = 1
+			y = 2
+		}		#не баг
+		atgm = {
+			x = 1
+			y = 3
+		}	
+		mortar = {
+			x = 1
+			y = 4
+		}
+	}
+}	
+###
+
+### TEMPLATE MPR
+division_template = {
+	name = "Batalion ZEKOV"
+	division_names_group = WGN_INF_01
+	is_locked = yes
+	priority = 0
+	regiments = {
+		CHVK_vagner = {
+			x = 0
+			y = 0
+		}
+		prisoners = {
+			x = 0
+			y = 1
+		}
+		prisoners = {
+			x = 0
+			y = 2
+		}
+		prisoners = {
+			x = 0
+			y = 3
+		}
+		prisoners = {
+			x = 0
+			y = 4
+		}
+		prisoners = {
+			x = 1
+			y = 0
+		}
+		prisoners = {
+			x = 1
+			y = 1
+		}
+		prisoners = {
+			x = 1
+			y = 2
+		}
+		prisoners = {
+			x = 1
+			y = 3
+		}
+		prisoners = {
+			x = 1
+			y = 4
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		signal_company = {
+			x = 0
+			y = 1
+		}
+		logistics_company = {
+			x = 0
+			y = 2
+		}
+		artillery = {
+			x = 0
+			y = 3
+		}		#не баг
+		atgm = {
+			x = 1
+			y = 0
+		}	
+		mortar = {
+			x = 1
+			y = 1
+		}
+	}
+}	
+###
+
+### TEMPLATE MPR
+division_template = {
+	name = "DSHRG Rusich"
+	division_names_group = WGN_INF_01
+	is_locked = yes
+	priority = 1
+	force_allow_recruiting = no
+	regiments = {
+		spetsnaz = {
+			x = 0
+			y = 0
+		}
+		spetsnaz = {
+			x = 0
+			y = 1
+		}
+		spetsnaz = {
+			x = 0
+			y = 2
+		}
+		spetsnaz = {
+			x = 1
+			y = 0
+		}
+		spetsnaz = {
+			x = 1
+			y = 1
+		}
+		spetsnaz = {
+			x = 1
+			y = 2
+		}
+		BTR = {
+			x = 2
+			y = 0
+		}
+		BTR = {
+			x = 2
+			y = 1
+		}
+		BMP_2 = {
+			x = 2
+			y = 2
+		}
+		BMP_2 = {
+			x = 2
+			y = 3
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		signal_company = {
+			x = 0
+			y = 1
+		}
+		recon = {
+			x = 0
+			y = 2
+		}
+		artillery = {
+			x = 1
+			y = 0
+		}		#не баг
+		sniper = {
+			x = 1
+			y = 1
+		}		#не баг
+		atgm = {
+			x = 1
+			y = 2
+		}	
+		mortar = {
+			x = 1
+			y = 3
+		}
+	}
+}
+###
+units = {
+	division = {
+		officer = {
+			name = "Alexey Nagin «Terek»"
+			portraits = {
+		        army = {
+					large = GFX_WGN_Alexey_Nagin
+					small = GFX_WGN_Alexey_Nagin_small
+				}
+		    }
+		}
+		location = 3040
+		division_template = "Batalion CHVK Wagnera"
+		start_experience_factor = 1
+		start_equipment_factor = 0.01
+	}
+	division = {
+		location = 3040
+		division_template = "Batalion CHVK Wagnera"
+		start_experience_factor = 1
+		start_equipment_factor = 0.01
+	}
+	division = {
+		location = 3040
+		division_template = "Batalion CHVK Wagnera"
+		start_experience_factor = 1
+		start_equipment_factor = 0.01
+	}
+	division = {
+		location = 3040
+		division_template = "Batalion CHVK Wagnera"
+		start_experience_factor = 1
+		start_equipment_factor = 0.01
+	}
+	division = {
+		name = "DSHRG Rusich"
+		officer = {
+			name = "Alexey Milchakov"
+			portraits = {
+		        army = {
+					large = GFX_idea_Milchakov
+					small = GFX_idea_Milchakov_small
+				}
+		    }
+		}
+		location = 3040
+		division_template = "DSHRG Rusich"
+		start_experience_factor = 1
+		start_equipment_factor = 0.01
+	}
+}

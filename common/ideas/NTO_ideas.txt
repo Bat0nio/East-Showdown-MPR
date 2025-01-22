@@ -1,0 +1,563 @@
+ideas = {
+
+	country = {
+		### MPR
+		NTO_EXP = {
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_idea_nato_instructors
+            modifier = {
+				experience_gain_factor = 0.7
+				send_volunteer_size = 12 #Was added
+			}
+
+		}
+		###
+		NTO_EDA = { 
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+	
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				send_volunteer_size = 12
+			}
+		}
+		### MPR
+		NTO_Army = { 
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				experience_gain_army_factor = 0.25
+				experience_gain_air_factor = 0.50
+				experience_gain_navy_unit_factor = 0.05
+				air_volunteer_cap = 40
+				army_defence_factor = 0.05
+				army_attack_factor = 0.1
+				army_speed_factor = 0.125
+				breakthrough_factor = 0.05	
+				send_volunteer_size = 40
+				training_time_army_factor = -0.5
+				mobilization_speed = 0.5
+				conscription = 0.25	
+			}
+		}
+		###
+
+	### MPR
+	NTO_help_our_allies = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+            removal_cost = -1
+			picture = GFX_404
+            modifier = {
+				send_volunteers_tension = -0.1
+				#send_volunteer_size = 20
+				#air_volunteer_cap = 19
+				guarantee_cost = 5
+
+			}
+
+	}
+	###
+
+        NTO_fail_of_our_politics = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+            removal_cost = -1
+			picture = GFX_404
+			modifier = {
+				#weekly_manpower = -75
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.15
+				army_armor_attack_factor = -0.15
+				army_armor_defence_factor = -0.15
+			}
+
+		}
+		NTO_supply_of_the_eastern_european_army_0 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_ideas_supply1
+
+			
+			modifier = {
+				weekly_manpower = 50
+				custom_modifier_tooltip = NTO_supply_of_the_eastern_european_army_0_tt
+			}
+		}
+
+		NTO_supply_of_the_eastern_european_army_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_ideas_supply1
+
+			
+			modifier = {
+				weekly_manpower = 75
+				custom_modifier_tooltip = NTO_supply_of_the_eastern_european_army_1_tt
+			}
+		}
+
+		NTO_supply_of_the_eastern_european_army_2 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_ideas_supply1
+
+			
+			modifier = {
+				weekly_manpower = 112
+				custom_modifier_tooltip = NTO_supply_of_the_eastern_european_army_2_tt
+			}
+		}
+
+		NTO_supply_of_the_eastern_european_army_3 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_ideas_supply1 
+
+			
+			modifier = {
+				weekly_manpower = 150
+				custom_modifier_tooltip = NTO_supply_of_the_eastern_european_army_3_tt
+			}
+		}
+
+		NTO_supply_of_the_eastern_european_army_4 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_ideas_supply1 
+
+			
+			modifier = {
+				weekly_manpower = 200
+				custom_modifier_tooltip = NTO_supply_of_the_eastern_european_army_4_tt
+			}
+		}
+
+		NTO_supply_of_the_eastern_european_army_5 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_ideas_supply1
+
+			
+			modifier = {
+				weekly_manpower = 250
+				custom_modifier_tooltip = NTO_supply_of_the_eastern_european_army_5_tt
+			}
+		}
+
+		NTO_lend_lease_to_ukraine = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_USA_america_free_of_fascism 
+
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				lend_lease_tension = -1
+			}
+		}
+
+######################################################################################
+### MPR
+NTO_nato_military_complex = { #военный комплекс нато
+			
+allowed = {
+	original_tag = NTO
+}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	picture = GFX_idea_generic_Economy_Military_Budget_Boost
+	
+	modifier = {
+		industrial_capacity_factory = 0.10
+		lend_lease_tension = 1
+		production_factory_max_efficiency_factor = 0.10
+		production_factory_efficiency_gain_factor = -0.30
+		consumer_goods_factor = -0.02
+		military_factory_donations = 130
+		ammunition_plants_efficiency_factor = -0.4
+		equipment_upgrade_xp_cost = 100
+	}
+	equipment_bonus = { 
+		support_equipment = {
+			build_cost_ic = -0.05 instant = yes
+		}
+	}
+}
+###
+
+### MPR
+NTO_Fighting_for_Democracy = { #борьба
+			
+allowed = {
+	original_tag = NTO
+}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	picture = GFX_idea_USA_legacy_of_the_nye_conference
+
+	
+	modifier = {
+		max_surrender_limit_offset = 0.30
+		drift_defence_factor = 0.9
+		guarantee_tension = 0.10
+		#air_volunteer_cap = 10
+	}
+
+}
+###
+
+### MPR
+NTO_Nato_Military_School = { #nato school
+			
+allowed = {
+	original_tag = NTO
+}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	picture = GFX_idea_USA_america_free_of_fascism
+
+	
+	modifier = {
+		command_abilities_cost_factor = 2
+		special_forces_cap_flat = 500
+		special_forces_attack_factor = 0.20
+		experience_gain_factor = 0.05
+		army_org_Factor = 0.05
+		max_command_power  = 150
+		planning_speed = 0.10	
+		max_planning = 0.1
+		air_attack_factor = 0.35
+		air_defence_factor = 0.25
+		air_strategic_bomber_defence_factor = 0.5
+		air_cas_efficiency = 0.1
+		land_doctrine_cost_factor = -0.3
+	}
+
+}
+###
+
+NTO_Unified_communication_system = { 
+			
+allowed = {
+	original_tag = NTO
+}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	picture = GFX_idea_comunications1
+
+	
+	modifier = {
+		army_org_Factor = 0.02
+		planning_speed = 0.10	
+		land_reinforce_rate	= 0.05
+		minimum_training_level = 0.2
+		#conscription = 0.02
+	}
+
+}
+### MPR
+NTO_Struggle_General_Staff = { 
+			
+	allowed = {
+		original_tag = NTO
+	}
+	
+		allowed_civil_war = {
+			always = yes
+		}
+	
+		removal_cost = -1
+	
+		picture = GFX_ideas_seporategenshtab1
+	
+		
+		modifier = {
+			#max_planning = -0.2
+			planning_speed = -0.1
+			political_power_factor = -0.02
+			air_doctrine_cost_factor = 0.5
+			unit_BMP_nato_design_cost_factor = 100
+			unit_Abrams_design_cost_factor = 100
+			unit_Leopard_design_cost_factor = 100
+			unit_Challenger_design_cost_factor = 100
+			unit_Leclerc_design_cost_factor = 100
+			unit_Polevoi_SAU_design_cost_factor = 100
+		}
+	
+	}
+	###
+
+	NTO_The_Pacifian_Society = { 
+			
+		allowed = {
+			original_tag = NTO
+		}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+		
+			removal_cost = -1
+		
+			picture = GFX_ideas_pacific1
+		
+			
+			modifier = {
+				mobilization_laws_cost_factor = 0.8
+				mobilization_speed = -0.2
+				political_power_factor  = 0.05 
+				war_support = -0.20
+				conversion_cost_civ_to_mil_factor = 0.4
+				production_speed_military_complex_factor = 0.5
+				production_speed_industrial_complex_factor = 0.2 
+			}
+		
+		}
+        ### MPR
+		NTO_Collaboration_with_CHVK = { 
+			
+			allowed = {
+				original_tag = NTO
+			}
+			
+				allowed_civil_war = {
+					always = yes
+				}
+			
+				removal_cost = -1
+			
+				picture = GFX_ideas_chvk1
+			
+				
+				modifier = {
+					send_volunteer_size = 11
+					send_volunteers_tension = -0.90
+				}
+			
+			}
+			###
+
+
+			NTO_Civilized_World = { 
+			
+				allowed = {
+					original_tag = NTO
+				}
+				
+					allowed_civil_war = {
+						always = yes
+					}
+				
+					removal_cost = -1
+				
+					picture = GFX_idea_usa_last_bastion_of_liberty
+				
+					
+					modifier = {
+						civilian_intel_factor = 0.6
+						army_intel_factor = 0.6
+						airforce_intel_factor = 0.6
+						weekly_manpower = 50
+						global_building_slots = 50
+						max_fuel = 10000000
+						#local_resources_factor = 0.05
+						#trade_laws_cost_factor = -0.33
+						#production_lack_of_resource_penalty_factor = -0.1
+						country_resource_aluminium = 600
+						country_resource_chromium = 600
+						country_resource_steel = 1000
+						country_resource_gas = 100
+						country_resource_rubber = 750
+						country_resource_tungsten = 800
+						country_resource_oil = 300
+					}
+				
+				}
+
+
+				NTO_The_Shame_of_Afghanistan = { 
+			
+					allowed = {
+						original_tag = NTO
+					}
+					
+						allowed_civil_war = {
+							always = yes
+						}
+					
+						removal_cost = -1
+					
+						picture = GFX_ideas_afganistan1
+						
+						
+						modifier = {
+							acclimatization_hot_climate_gain_factor = 0.05
+							political_power_factor  = -0.07
+						}
+					
+					}
+
+
+					NTO_pol_treaty = {
+
+						allowed = {
+							original_tag = "NTO"
+							always = yes
+						}
+			
+						removal_cost = -1
+			
+						picture = generic_constitutional_guarantees
+			
+						targeted_modifier = {
+							tag = POL
+							trade_cost_for_target_factor = -0.25
+						}
+			
+						targeted_modifier = {
+							tag = POL
+							extra_trade_to_target_factor = 0.25
+						}
+			
+					}
+                NTO_volunteers = {
+
+                    allowed = {
+						original_tag = "NTO"
+						always = no
+					}
+
+					picture = generic_constitutional_guarantees
+
+					removal_cost = -1
+
+					modifier = { 
+						send_volunteer_size = 12
+					}
+				}			
+
+
+
+				
+  }
+}

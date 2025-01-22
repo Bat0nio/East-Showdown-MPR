@@ -1,0 +1,168 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+############# Gruz
+
+	tank_desant_l = {
+		abbreviation = "desant_l"
+		category = tank_desantl
+
+		add_stats = {
+			build_cost_ic = 3
+			breakthrough = 1.00 #was 2.0 reduced by 50%
+			defense = 1.00 #was 2.0 reduced by 50%
+			air_attack = 0.06 #was 0.12 reduced by 50%
+			recon = 0.25 #was 0.5 reduced by 50%
+			entrenchment = 0.25 #was 0.5 reduced by 50%
+			suppression = 0.50 #was 1.0 reduced by 50%
+		}
+		multiply_stats = {
+			maximum_speed = -0.05
+			#hardness = 0.3
+
+		}
+		dismantle_cost_ic = 0.15
+
+		xp_cost = 5
+	}
+
+	tank_desant_1 = {
+		abbreviation = "desant_1"
+		category = tank_desant
+
+		add_stats = {
+			build_cost_ic = 4
+			breakthrough = 1.25 #was 2.5 reduced by 50%
+			defense = 1.00 #was 2.0 reduced by 50%
+			air_attack = 0.12 #was 0.25 reduced by 50%
+			recon = 0.50 #was 1.0 reduced by 50%
+			entrenchment = 0.50 #was 1.0 reduced by 50%
+			suppression = 1.00 #was 2.0 reduced by 50%
+		}
+		multiply_stats = {
+			maximum_speed = -0.15
+			#hardness = 0.4
+		}
+		dismantle_cost_ic = 0.20
+
+		xp_cost = 10
+	}
+
+	tank_desant_2 = {
+		abbreviation = "desant_2"
+		category = tank_desant
+
+		add_stats = {
+			build_cost_ic = 6
+			breakthrough = 2.50 #was 5.0 reduced by 50%
+			defense = 2.00 #was 4.0 reduced by 50%
+			air_attack = 0.12 #was 0.25 reduced by 50%
+			recon = 0.50 #was 1.0 reduced by 50%
+			entrenchment = 0.50 #was 1.0 reduced by 50%
+			suppression = 1.00 #was 2.0 reduced by 50%
+		}
+		multiply_stats = {
+			maximum_speed = -0.15
+			#hardness = 0.4
+		}
+		dismantle_cost_ic = 0.30
+
+		xp_cost = 15
+	}
+
+	tank_desant_3 = {
+		abbreviation = "desant_3"
+		category = tank_desant
+
+		add_stats = {
+			build_cost_ic = 9
+			breakthrough = 3.00 #was 6.0 reduced by 50%
+			defense = 3.00 #was 6.0 reduced by 50%
+			air_attack = 0.12 #was 0.25 reduced by 50%
+			recon = 0.50 #was 1.0 reduced by 50%
+			entrenchment = 0.50 #was 1.0 reduced by 50%
+			suppression = 1.00 #was 2.0 reduced by 50%
+		}
+		multiply_stats = {
+			maximum_speed = -0.15
+			#hardness = 0.4
+		}
+		dismantle_cost_ic = 0.45
+
+		xp_cost = 20
+	}
+
+	tank_gruz_boek = {
+		abbreviation = "gruz_boek"
+		category = tank_gruz_boek
+
+		add_stats = {
+			build_cost_ic = 2
+			breakthrough = 4.00 #was 8.0 reduced by 50%
+			defense = 3.50 #was 7.0 reduced by 50%
+		}
+		multiply_stats = {
+			maximum_speed = -0.05
+			reliability = -0.3
+			air_attack = 0.03 #was 0.05 reduced by 50%
+			supply_consumption = 0.05 #was 0.1 reduced by 50%
+			soft_attack = 0.05 #was 0.1 reduced by 50%
+			hard_attack = 0.07 #was 0.15 reduced by 50%
+		}
+		dismantle_cost_ic = 0.10
+
+
+		xp_cost = 10
+	}
+
+	tank_gruz_rel1 = {
+		abbreviation = "gruz_rel1"
+		category = tank_gruz_reload
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_heavy_guns
+				tank_superheavy_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 1
+		}
+		multiply_stats = {
+			reliability = -0.05
+			supply_consumption = 0.03 #was 0.05 reduced by 50%
+		}
+		dismantle_cost_ic = 0.05
+
+
+		xp_cost = 10
+	}
+
+	tank_gruz_rel2 = {
+		abbreviation = "gruz_rel2"
+		category = tank_gruz_reload
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_heavy_guns
+				tank_superheavy_guns
+			}
+		}
+
+		add_stats = {
+			build_cost_ic = 3
+			breakthrough = 1.50 #was 3.0 reduced by 50%
+			defense = 1.50 #was 3.0 reduced by 50%
+		}
+		multiply_stats = {
+			maximum_speed = -0.05
+			reliability = -0.2
+			air_attack = 0.02 #was 0.04 reduced by 50%
+		}
+		dismantle_cost_ic = 0.15
+
+		xp_cost = 15
+	}
+}

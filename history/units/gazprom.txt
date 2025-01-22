@@ -1,0 +1,28 @@
+units = {
+	division = {
+		name = "Batal'on CHVK Potok"
+		location = 15578
+		division_template = "CHVK"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batal'on CHVK Plamya"
+		location = 15578
+		division_template = "CHVK"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+units = {
+	division = {
+		name = "Batal'on CHVK Fakel"
+		location = 15578
+		division_template = "CHVK"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+}
+

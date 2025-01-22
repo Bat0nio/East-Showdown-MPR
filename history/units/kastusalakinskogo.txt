@@ -1,0 +1,16 @@
+units = {
+	division = {
+		name = "Batal'on «Litvin»"
+		location = 15078
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+    division = {
+		name = "Batal'on «Volat»"
+		location = 15078
+		division_template = "Pechotniy batalion"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+}

@@ -1,0 +1,9 @@
+units = {
+	division = {
+		name = "Belorusskij polk «Pogonya»"
+		location = 5220
+		division_template = "NGU batalyon"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+}

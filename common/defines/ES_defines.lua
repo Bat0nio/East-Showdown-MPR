@@ -91,21 +91,22 @@ NDefines.NMilitary.WAR_SCORE_LEND_LEASE_GIVEN_IC_FACTOR = 0.001  				-- war scor
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_GIVEN_FUEL_FACTOR = 0.001  			-- war score gained for every 100 units of fuel lend lease sent to allies
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_RECEIVED_IC_FACTOR = 0.001  			-- war score deducted for every IC of lend lease received from allies
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_RECEIVED_FUEL_FACTOR = 0.001 		-- war score deducted for every 100 units of fuel lend lease received from allies
+
 NDefines.NMilitary.DIVISION_SIZE_FOR_XP = 8                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
 NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1			-- how many armies a corps commander is limited to. 0 = inf < 0 = blocked
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 10				-- how many armies a field marshall is limited to. 0 = inf < 0 = blocked
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.033    -- was 0.025 pre air attack changes 0.032 vanilla   air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.033    --was 0.030 pre air attack changes 0.032 vanilla   global damage modifie
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.08-- 0.25 vanilla
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.036    -- was 0.025 pre air attack changes 0.032 vanilla   air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.036    --was 0.030 pre air attack changes 0.032 vanilla   global damage modifie
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.10-- 0.25 vanilla
 NDefines.NAir.AIR_WING_MAX_STATS_ATTACK = 500 -- 100
 NDefines.NAir.AIR_WING_MAX_STATS_DEFENCE = 500 -- 100
 NDefines.NAir.AIR_WING_MAX_STATS_AGILITY = 500 -- 100
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 3000 -- 800
 NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000 -- 100
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 500 -- 3000
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.3 -- 1 vanilla Higher value = more shot down planes
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.25 -- 1 vanilla Higher value = more shot down planes
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0.01 -- 0.20
-NDefines.NAir.DISRUPTION_FACTOR = 1.25 -- 4.0
+NDefines.NAir.DISRUPTION_FACTOR = 1.3 -- 4.0
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 1 -- vanial 3 how many CAS/TAC can enter a combat depending on enemy width there
 NDefines.NMilitary.ATTRITION_DAMAGE_ORG = 0.08					   -- vanila 0.08 ущерб от истощения Организации
 NDefines.NMilitary.ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.025		    -- #0.1 Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
@@ -138,9 +139,10 @@ NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.20	       -- more AA attack
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112 -- how quickly defense approaches the max impact diminishing returns curve
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.3     -- vanila 0.3 effect on speed due to enemy air superiority
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.02			-- Balancing value to determine the chance of ground AA hitting an attacking airplane affecting both the effective average damage done by AA to airplanes and the reduction of damage done by airplanes due to AA support
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
+NDefines.NMilitary.ENCIRCLED_PENALTY = -0.30                      	-- #was -0.3 penalty when completely encircled когда окружили
 NDefines.NMilitary.UNIT_EXP_LEVELS = { 0.1, 0.3, 0.6, 0.8 }		-- Experience needed to progress to the next level
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.70	 	   -- % was 0.70 (lancaster)of equipment lost to strength ratio in combat so some % is returned if below 1
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.01 	   -- % was 0.70 (lancaster)of equipment lost to strength ratio in combat so some % is returned if below 1
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.1              -- percentage of (max) org loss on takign enemy province
 NDefines.NMilitary.COMBAT_STACKING_START = 8						-- at what nr of divisions stacking penalty starts
 NDefines.NMilitary.COMBAT_STACKING_EXTRA = 4                      -- extra stacking from directions
@@ -181,9 +183,9 @@ NDefines.NAir.NAVAL_RECON_DETECTION_BALANCE_FACTOR = 0.7			-- Value used to scal
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 5.0					-- CP cost to maintain more ground crews
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 3.0 						--Daily gain when running training exercise mission
 NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  -- command power cost per plane to create a mission
-0.0, -- AIR_SUPERIORITY
-0.0, -- CAS
-0.0, -- INTERCEPTION
+2.5, -- AIR_SUPERIORITY
+2.0, -- CAS
+1.5, -- INTERCEPTION
 0.0, -- STRATEGIC_BOMBER
 0.0, -- NAVAL_BOMBER
 0.0, -- DROP_NUKE
@@ -396,6 +398,7 @@ NDefines.NIndustrialOrganisation.ASSIGN_INDUSTRIAL_MANUFACTURER_PP_COST_PER_DAY 
 NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP = 1000					-- Funds needed for a MIO to increment its size and get points to unlock traits
 NDefines.NIndustrialOrganisation.FUNDS_FOR_SIZE_UP_LEVEL_FACTOR = 0.8 			-- How much each level mutliplies the funds for size up 
 NDefines.NIndustrialOrganisation.UNLOCKED_TRAITS_PER_SIZE_UP = 1			-- Number of points for unlocking traits obtained when the MIO increments its size
+NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 5				-- Flat cost added to the XP cost of a new equipment design
 NDefines.NIndustrialOrganisation.FUNDS_FOR_RESEARCH_COMPLETION_PER_RESEARCH_COST = 500     -- Funds added to MIO when the Design Team has completed a research multiplied by research_cost in technology template
 NDefines.NIndustrialOrganisation.FUNDS_FOR_CREATING_EQUIPMENT_VARIANT = 0		-- Funds added to MIO when a new variant is created with the Design Team assigned to it
 NDefines.NIndustrialOrganisation.FUNDS_FROM_MANUFACTURER_PER_IC_PER_DAY = 0.1		-- Funds added to MIO when a manufacturer is attached to a production line. Added every day proportional to IC produced.
@@ -429,7 +432,6 @@ NDefines.NMarket.WARNING_CONVOYS_SUNK_MAX_DAYS = 30 -- The contracts will show s
 NDefines.NTechnology.MAX_SUBTECHS = 10
 
 -- MPR
-NDefines.NAir.MISSION_COMMAND_POWER_COSTS = { 2.0, 1.0, 1.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05, 0.0, 0.0, 0.0, 0.0, 0.0 }
 NDefines.NMilitary.REINFORCE_CHANCE = 0.10 -- 0.02
 NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY = -1 -- original mod 1.5 -- vanilla 1
 NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0.009 --0.0015
@@ -453,14 +455,11 @@ NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15 -- 0.25
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 2 -- 5	
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 2 -- 5
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 1 -- 10
-
-
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.030 -- 0.060
 -- UPDATE THIS
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 150 --50
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 10 --100
 NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.7 -- -0.1
-NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 0
-NDefines.NMilitary.ENCIRCLED_PENALTY = -0.20
 NDefines.NBuildings.BASE_FACTORY_REPAIR = 2.5 --1.0
 NDefines.NBuildings.BASE_FACTORY_REPAIR_FACTOR = 3.5 --2.0 
 --

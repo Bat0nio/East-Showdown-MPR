@@ -1,0 +1,16 @@
+
+NTO_volunteers_mpr = {
+	icon = generic_formable_nations
+
+	allowed = {
+		original_tag = NTO
+	}
+
+	visible = {
+		original_tag = NTO
+	}
+
+	#visible_when_empty = no
+
+	priority = 3000
+}

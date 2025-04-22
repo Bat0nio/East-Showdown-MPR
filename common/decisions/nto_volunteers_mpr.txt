@@ -1,0 +1,83 @@
+NTO_volunteers_mpr = {
+	add_ifv_to_volunteers_NTO = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+            has_completed_focus = nto_sending_ifv_and_apc
+		}
+
+		complete_effect = { 
+			add_manpower = 4000
+			add_units_to_division_template = {
+				template_name = "Volunteer NATO battalion"
+				regiments = {
+					ifv_usa = 1
+					ifv_usa = 1
+					ifv_usa = 1
+				}
+			}
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	create_tank_volunteers_NTO = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+            has_completed_focus = nto_sending_mbt
+		}
+
+		complete_effect = { 
+            load_oob = NTO_tank_volunteers
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	emergency_help_NTO = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+			OR = {
+				UKR = {
+					surrender_progress > 0.65
+					casualties > 200000
+				}
+				UKR = {
+					surrender_progress > 0.50
+					casualties > 300000
+				}
+				UKR = {
+					surrender_progress > 0.35
+					casualties > 400000
+				}
+				UKR = {
+					surrender_progress > 0.25
+					casualties > 500000
+				}
+				UKR = {
+					surrender_progress > 0.15
+					casualties > 650000
+				}
+			}
+		}
+
+		complete_effect = { 
+            add_manpower = 50000
+			add_ideas = {
+				nto_mpr_air_volunteers
+			}
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

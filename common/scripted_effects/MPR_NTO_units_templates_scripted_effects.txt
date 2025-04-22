@@ -1,0 +1,62 @@
+
+
+ensure_unit_template_Volunteer_NATO_battalion = {
+	if = { limit = { NOT = { has_template = "Volunteer NATO battalion" } }
+		division_template = {
+			name = "Volunteer NATO battalion"
+			is_locked = no
+			force_allow_recruiting = yes
+			regiments = {
+				spetsnaz = { x = 0 y = 0 }
+				spetsnaz = { x = 0 y = 1 }
+				spetsnaz = { x = 0 y = 2 }		
+				marine = { x = 0 y = 3 }	
+				marine = { x = 0 y = 4 }
+			}
+			support = {
+				field_hospital = { x = 0 y = 0 }
+				signal_company = { x = 0 y = 1 }
+				maintenance_company  = { x = 0 y = 2 }
+				logistics_company = { x = 0 y = 3 }
+				engineer = { x = 0 y = 4 }
+				command = { x = 0 y = 5 }
+				recon = { x = 1 y = 0 }		
+				sniper = { x = 1 y = 1 }
+				artillery = { x = 1 y = 2 }		
+				atgm = { x = 1 y = 3 }
+				mortar = { x = 1 y = 4 }
+			}	
+		}
+	}
+}
+
+ensure_unit_template_Armored_NATO_volunteer_battalion = {
+	if = { limit = { NOT = { has_template = "Armored NATO volunteer battalion" } }
+		division_template = {
+			name = "Armored NATO volunteer battalion"
+			is_locked = no
+			force_allow_recruiting = no
+			regiments = {
+				tank_usa = { x = 0 y = 0 }
+				tank_usa = { x = 0 y = 1 }
+				tank_ger = { x = 0 y = 2 }		
+				tank_ger = { x = 0 y = 3 }	
+				ifv_usa = { x = 1 y = 0 }
+				ifv_usa = { x = 1 y = 1 }
+			}
+			support = {
+				field_hospital = { x = 0 y = 0 }
+				signal_company = { x = 0 y = 1 }
+				maintenance_company  = { x = 0 y = 2 }
+				logistics_company = { x = 0 y = 3 }
+				engineer_heavy = { x = 0 y = 4 }
+				command = { x = 0 y = 5 }
+				recon = { x = 1 y = 0 }		
+				sniper = { x = 1 y = 1 }
+				artillery = { x = 1 y = 2 }		
+				atgm = { x = 1 y = 3 }
+				mortar = { x = 1 y = 4 }
+			}	
+		}
+	}
+}

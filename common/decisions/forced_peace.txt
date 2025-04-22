@@ -1,0 +1,188 @@
+UKR_force_peace_RUS = {
+	force_peace_KURSK_BELGOROD = {
+		icon = generic_formable_nations
+		fire_only_once = no
+
+		available = {
+			controls_state = 70
+            controls_state = 54
+            surrender_progress < 0.05
+            RUS = {
+                casualties > 200000
+            }
+		}
+
+		complete_effect = { 
+            white_peace = RUS
+            set_truce = {
+                target = RUS
+                days = 900
+            }
+            221 = { transfer_state_to = UKR }
+            205 = { transfer_state_to = UKR }
+            189 = { transfer_state_to = UKR }
+            293 = { transfer_state_to = UKR }
+            172 = { transfer_state_to = UKR }
+            194 = { transfer_state_to = UKR }
+            173 = { transfer_state_to = UKR }
+            183 = { transfer_state_to = UKR }
+		}	
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 70
+                state = 54
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    force_peace_DONBAS = {
+		icon = generic_formable_nations
+		fire_only_once = no
+
+		available = {
+			controls_state = 205
+            controls_state = 189
+            controls_state = 173
+            controls_state = 194
+            surrender_progress < 0.05
+            RUS = {
+                casualties > 200000
+            }
+		}
+
+		complete_effect = { 
+            white_peace = RUS
+            set_truce = {
+                target = RUS
+                days = 900
+            }
+            221 = { transfer_state_to = UKR }
+            205 = { transfer_state_to = UKR }
+            189 = { transfer_state_to = UKR }
+            293 = { transfer_state_to = UKR }
+            172 = { transfer_state_to = UKR }
+            194 = { transfer_state_to = UKR }
+            173 = { transfer_state_to = UKR }
+            183 = { transfer_state_to = UKR }
+		}	
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 205
+                state = 189
+                state = 194
+                state = 173
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    force_peace_CRIMEA = {
+		icon = generic_formable_nations
+		fire_only_once = no
+
+		available = {
+			controls_state = 205
+            controls_state = 335
+            controls_state = 321
+            controls_state = 576
+            surrender_progress < 0.05
+            RUS = {
+                casualties > 200000
+            }
+		}
+
+		complete_effect = { 
+            white_peace = RUS
+            set_truce = {
+                target = RUS
+                days = 900
+            }
+            221 = { transfer_state_to = UKR }
+            205 = { transfer_state_to = UKR }
+            189 = { transfer_state_to = UKR }
+            293 = { transfer_state_to = UKR }
+            172 = { transfer_state_to = UKR }
+            194 = { transfer_state_to = UKR }
+            173 = { transfer_state_to = UKR }
+            183 = { transfer_state_to = UKR }
+            335 = { transfer_state_to = UKR }
+            575 = { transfer_state_to = UKR }
+            337 = { transfer_state_to = UKR }
+            585 = { transfer_state_to = UKR }
+            586 = { transfer_state_to = UKR }
+            587 = { transfer_state_to = UKR }
+            309 = { transfer_state_to = UKR }
+            314 = { transfer_state_to = UKR }
+            706 = { transfer_state_to = UKR }
+            582 = { transfer_state_to = UKR }
+            304 = { transfer_state_to = UKR }
+            580 = { transfer_state_to = UKR }
+            321 = { transfer_state_to = UKR }
+            303 = { transfer_state_to = UKR }
+            581 = { transfer_state_to = UKR }
+            583 = { transfer_state_to = UKR }
+            297 = { transfer_state_to = UKR }
+            577 = { transfer_state_to = UKR }
+            290 = { transfer_state_to = UKR }
+            584 = { transfer_state_to = UKR }
+            578 = { transfer_state_to = UKR }
+            280 = { transfer_state_to = UKR }
+            579 = { transfer_state_to = UKR }
+            704 = { transfer_state_to = UKR }
+            576 = { transfer_state_to = UKR }
+            705 = { transfer_state_to = UKR }
+		}	
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 335
+                state = 321
+                state = 576
+                state = 205
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    force_peace_casulties = {
+		icon = generic_formable_nations
+		fire_only_once = no
+
+		available = {
+            surrender_progress < 0.10
+            RUS = {
+                casualties > 700000
+            }
+		}
+
+		complete_effect = { 
+            white_peace = RUS
+            set_truce = {
+                target = RUS
+                days = 900
+            }
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

@@ -1,0 +1,16 @@
+
+UKR_force_peace_RUS = {
+	#icon = decision_cat_picture_SWI_military_readiness_decisions
+
+	allowed = {
+		original_tag = UKR
+	}
+
+	visible = {
+		has_war = yes
+	}
+
+	#visible_when_empty = no
+
+	priority = 3000
+}

@@ -1,0 +1,64 @@
+on_actions = {
+	on_startup = {
+		effect = {
+            NTO = {
+                add_manpower = -9999999
+                set_rule = {
+                    can_send_volunteers = yes
+                }
+                add_ideas = {
+                    nto_mpr
+                    nto_mpr_no_templates
+                }
+                remove_ideas = {
+                    NTO_Struggle_General_Staff
+                }
+                set_country_flag = nto_mpr_on
+                load_oob = NTO_start_units
+                country_lock_all_division_template = yes
+
+                delete_unit_template_and_units = {
+                    division_template = "UK NATO battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "GER NATO battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "USA NATO battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "FRA NATO battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "NTO USA Marine Battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "GER Meh NATO battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "USA Meh NATO battalion"
+                    disband = no
+                }
+                delete_unit_template_and_units = {
+                    division_template = "ITA NATO battalion"
+                    disband = no
+                }
+                if = {
+                    limit = {
+                        any_country = {
+                            original_tag = RDT
+                        }
+                    }
+                    add_manpower = 2000
+                    load_oob = NTO_start_units_with_redut
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+instant_effect = {
+	ensure_unit_template_Volunteer_NATO_battalion = yes
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 18166
+		division_template = "Volunteer NATO battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+}

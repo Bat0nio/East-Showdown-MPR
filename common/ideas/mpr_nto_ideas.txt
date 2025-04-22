@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+        nto_mpr = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                special_forces_cap = 1
+                max_planinng = 0.15
+                land_doctrine_cost_factor = -0.50
+                special_forces_attack_factor = 0.25
+                special_forces_defence_factor = 0.25
+                army_org_factor = 0.10
+                send_volunteers_tension = -0.50
+                send_volunteer_size = 100
+            }
+        }  
+        nto_mpr_no_templates = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_no_tanks" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                unit_ifv_usa_design_cost_factor = 500
+            }
+        }
+        nto_mpr_air_volunteers = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_no_apc_ifv" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                air_volunteer_cap = 40
+            }
+        }  
+    }
+}

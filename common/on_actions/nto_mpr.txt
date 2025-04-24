@@ -9,6 +9,7 @@ on_actions = {
                 add_ideas = {
                     nto_mpr
                     nto_mpr_no_templates
+                    nto_mpr_start_volunteers
                 }
                 remove_ideas = {
                     NTO_Struggle_General_Staff
@@ -55,8 +56,10 @@ on_actions = {
                             original_tag = RDT
                         }
                     }
-                    add_manpower = 2000
                     load_oob = NTO_start_units_with_redut
+                    add_ideas = {
+                        nto_mpr_redut_volunteers
+                    }
                 }
             }
         }

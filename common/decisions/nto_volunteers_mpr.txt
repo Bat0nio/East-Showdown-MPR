@@ -8,14 +8,17 @@ NTO_volunteers_mpr = {
 		}
 
 		complete_effect = { 
-			add_manpower = 4000
-			add_units_to_division_template = {
-				template_name = "Volunteer NATO battalion"
-				regiments = {
-					ifv_usa = 1
-					ifv_usa = 1
-					ifv_usa = 1
-				}
+			#add_units_to_division_template = {
+				#template_name = "Volunteer NATO battalion"
+				#regiments = {
+					#ifv_usa = 1
+					#ifv_usa = 1
+					#ifv_usa = 1
+				#}
+			#}
+			load_oob = NTO_ifv_volunteers
+			add_ideas = {
+				nto_mpr_ifv_volunteers
 			}
 		}	
 		
@@ -33,6 +36,9 @@ NTO_volunteers_mpr = {
 
 		complete_effect = { 
             load_oob = NTO_tank_volunteers
+			add_ideas = {
+				nto_mpr_tank_volunteers
+			}
 		}	
 		
 		ai_will_do = {
@@ -71,7 +77,7 @@ NTO_volunteers_mpr = {
 		complete_effect = { 
             add_manpower = 50000
 			add_ideas = {
-				nto_mpr_air_volunteers
+				nto_mpr_late_volunteers
 			}
 		}	
 		

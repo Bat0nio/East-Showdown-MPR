@@ -8,13 +8,12 @@ ideas = {
             picture = unknown
             modifier = {
                 special_forces_cap = 1
-                max_planinng = 0.15
+                max_planinng = 0.10
                 land_doctrine_cost_factor = -0.50
-                special_forces_attack_factor = 0.25
-                special_forces_defence_factor = 0.25
+                special_forces_attack_factor = 0.15
+                special_forces_defence_factor = 0.15
                 army_org_factor = 0.10
                 send_volunteers_tension = -0.50
-                send_volunteer_size = 100
             }
         }  
         nto_mpr_no_templates = {
@@ -27,7 +26,47 @@ ideas = {
                 unit_ifv_usa_design_cost_factor = 500
             }
         }
-        nto_mpr_air_volunteers = {
+        nto_mpr_start_volunteers = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_start_volunteers" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                send_volunteer_size = 8
+            }
+        }  
+        nto_mpr_redut_volunteers = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_redut_volunteers" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                send_volunteer_size = 8
+            }
+        } 
+        nto_mpr_ifv_volunteers = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_ifv_volunteers" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                send_volunteer_size = 6
+            }
+        }  
+        nto_mpr_tank_volunteers = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_tank_volunteers" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                send_volunteer_size = 3
+            }
+        }   
+        nto_mpr_late_volunteers = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_no_apc_ifv" }
             allowed = { always = no }
             allowed_civil_war = { always = no }
@@ -35,6 +74,7 @@ ideas = {
             picture = unknown
             modifier = {
                 air_volunteer_cap = 40
+                send_volunteer_size = 100
             }
         }  
     }

@@ -19,12 +19,11 @@ ensure_unit_template_Volunteer_NATO_battalion = {
 				maintenance_company  = { x = 0 y = 2 }
 				logistics_company = { x = 0 y = 3 }
 				engineer = { x = 0 y = 4 }
-				command = { x = 0 y = 5 }
-				recon = { x = 1 y = 0 }		
-				sniper = { x = 1 y = 1 }
-				artillery = { x = 1 y = 2 }		
-				atgm = { x = 1 y = 3 }
-				mortar = { x = 1 y = 4 }
+				imv_recon = { x = 1 y = 5 }		
+				sniper = { x = 1 y = 0 }
+				artillery = { x = 1 y = 1 }		
+				atgm = { x = 1 y = 2 }
+				mortar = { x = 1 y = 3 }
 			}	
 		}
 	}
@@ -50,12 +49,40 @@ ensure_unit_template_Armored_NATO_volunteer_battalion = {
 				maintenance_company  = { x = 0 y = 2 }
 				logistics_company = { x = 0 y = 3 }
 				engineer_heavy = { x = 0 y = 4 }
-				command = { x = 0 y = 5 }
-				recon = { x = 1 y = 0 }		
-				sniper = { x = 1 y = 1 }
-				artillery = { x = 1 y = 2 }		
-				atgm = { x = 1 y = 3 }
-				mortar = { x = 1 y = 4 }
+				imv_recon = { x = 1 y = 5 }		
+				sniper = { x = 1 y = 0 }
+				artillery = { x = 1 y = 1 }		
+				atgm = { x = 1 y = 2 }
+				mortar = { x = 1 y = 3 }
+			}	
+		}
+	}
+}
+
+ensure_unit_template_Mechanized_NATO_volunteer_battalion = {
+	if = { limit = { NOT = { has_template = "Mechanized NATO volunteer battalion" } }
+		division_template = {
+			name = "Mechanized NATO volunteer battalion"
+			is_locked = no
+			force_allow_recruiting = no
+			regiments = {
+				ifv_usa = { x = 0 y = 0 }
+				ifv_usa = { x = 0 y = 1 }
+				ifv_usa = { x = 0 y = 2 }		
+				ifv_usa = { x = 0 y = 3 }
+				ifv_usa = { x = 0 y = 4 }
+			}
+			support = {
+				field_hospital = { x = 0 y = 0 }
+				signal_company = { x = 0 y = 1 }
+				maintenance_company  = { x = 0 y = 2 }
+				logistics_company = { x = 0 y = 3 }
+				engineer_heavy = { x = 0 y = 4 }
+				imv_recon = { x = 1 y = 5 }		
+				sniper = { x = 1 y = 0 }
+				artillery = { x = 1 y = 1 }		
+				atgm = { x = 1 y = 2 }
+				mortar = { x = 1 y = 3 }
 			}	
 		}
 	}

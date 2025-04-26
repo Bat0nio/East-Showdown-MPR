@@ -1,0 +1,53 @@
+RUS_debug_mpr = {
+	Annex_WGN_MPR = {
+		icon = generic_formable_nations
+		cost = 1
+		days_remove = 1
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		available = {
+			tag = RUS
+			has_war_with = UKR
+			WGN = {
+				is_ai = yes
+			}
+			has_completed_focus = RUS_begin_partial_mobilization
+		}
+		visible = {
+			has_war_with = UKR
+			tag = RUS
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision Annex_WGN_MPR"
+			WGN = {
+				every_unit_leader = {
+					remove_unit_leader = yes
+				}
+				remove_power_balance = {
+					id = WGN_power_balance
+				}
+			}
+			annex_country = {
+				target = WGN
+				transfer_troops = yes
+			}
+			remove_power_balance = {
+				id = RUS_power_balance
+			}
+			if = {
+			    limit = {
+				    WGN = {
+					    controls_state = 411
+				    }
+		        }
+				411 = { 
+					transfer_state_to = RUS
+					add_core_of = RUS
+				}
+	        }
+		}	
+	}
+}
+

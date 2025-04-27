@@ -14,6 +14,7 @@ ideas = {
                 special_forces_defence_factor = 0.15
                 army_org_factor = 0.10
                 send_volunteers_tension = -0.50
+                industrial_factory_donations = 60
             }
         }  
         nto_mpr_no_templates = {
@@ -67,7 +68,7 @@ ideas = {
             }
         }   
         nto_mpr_late_volunteers = {
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_no_apc_ifv" }
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_late_volunteers" }
             allowed = { always = no }
             allowed_civil_war = { always = no }
             removal_cost = -1
@@ -77,5 +78,36 @@ ideas = {
                 send_volunteer_size = 100
             }
         }  
+        nto_mpr_delete_extra_factories = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_delete_extra_factories" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                industrial_factory_donations = -280
+                military_factory_donations = -173
+            }
+        }
+        ukr_mpr_no_forts = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ukr_mpr_no_forts" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                production_speed_bunker_factor = -2 
+            }
+        }
+        pol_less_prod = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea pol_less_prod" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                industrial_capacity_factory = -0.5
+            }
+        }
     }
 }

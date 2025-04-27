@@ -61,6 +61,24 @@ on_actions = {
                         nto_mpr_redut_volunteers
                     }
                 }
+                if = {
+                    limit = {
+                        NBA = {
+                            controls_state = 228
+                        }
+                    }
+                    add_ideas = {
+                        nto_mpr_delete_extra_factories
+                    }
+                }
+            }
+            UKR = {
+                add_timed_idea = {  idea = ukr_mpr_no_forts  days = 80 }
+            }
+            POL = {
+                add_ideas = {
+                    pol_less_prod
+                }
             }
         }
     }

@@ -73,7 +73,16 @@ on_actions = {
                 }
             }
             UKR = {
-                add_timed_idea = {  idea = ukr_mpr_no_forts  days = 80 }
+                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+            }
+            DPR = {
+                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+            }
+            LPR = {
+                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+            }
+            RUS = {
+                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
             }
             POL = {
                 add_ideas = {

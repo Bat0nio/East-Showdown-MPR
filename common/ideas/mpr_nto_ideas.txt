@@ -89,14 +89,14 @@ ideas = {
                 military_factory_donations = -173
             }
         }
-        ukr_mpr_no_forts = {
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea ukr_mpr_no_forts" }
+        mpr_no_forts = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea mpr_no_forts" }
             allowed = { always = no }
             allowed_civil_war = { always = no }
             removal_cost = -1
             picture = unknown
             modifier = {
-                production_speed_bunker_factor = -2 
+                production_speed_bunker_factor = -0.4 
             }
         }
         pol_less_prod = {

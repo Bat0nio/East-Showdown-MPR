@@ -8,11 +8,7 @@ ideas = {
             picture = unknown
             modifier = {
                 special_forces_cap = 1
-                max_planinng = 0.10
-                land_doctrine_cost_factor = -0.50
-                special_forces_attack_factor = 0.15
-                special_forces_defence_factor = 0.15
-                army_org_factor = 0.10
+                land_doctrine_cost_factor = -0.45
                 send_volunteers_tension = -0.50
                 industrial_factory_donations = 60
             }
@@ -35,6 +31,7 @@ ideas = {
             picture = unknown
             modifier = {
                 send_volunteer_size = 8
+                air_volunteer_cap = -10
             }
         }  
         nto_mpr_redut_volunteers = {

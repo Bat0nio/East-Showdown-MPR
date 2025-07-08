@@ -73,6 +73,7 @@ ideas = {
             modifier = {
                 air_volunteer_cap = 40
                 send_volunteer_size = 100
+                army_speed_factor = -0.15
             }
         }  
         nto_mpr_delete_extra_factories = {

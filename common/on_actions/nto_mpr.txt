@@ -71,6 +71,17 @@ on_actions = {
                         nto_mpr_delete_extra_factories
                     }
                 }
+                if = {
+                    limit = {
+                        NTO = {
+                            controls_state = 228
+                        }
+                    }
+                    add_manpower = -9999999
+                    add_ideas = {
+                        nto_mpr_delete_extra_factories
+                    }
+                }
             }
             UKR = {
                 add_timed_idea = {  idea = mpr_no_forts  days = 75 }

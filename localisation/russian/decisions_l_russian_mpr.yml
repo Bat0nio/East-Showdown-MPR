@@ -7,4 +7,8 @@ force_peace_casulties: "Принуждение к миру через истощ
 NTO_volunteers_mpr: "Добровольцы стран НАТО"
 add_ifv_to_volunteers_NTO: "Сформировать 6 мехбатов"
 create_tank_volunteers_NTO: "Сформировать 3 танка"
+create_more_volunteers_NTO_0: "Сформировать 6 добробатов"
+create_more_volunteers_NTO_1: "Сформировать 6 добробатов"
+create_more_volunteers_NTO_2: "Сформировать 6 добробатов"
+create_more_volunteers_NTO_3: "Сформировать 6 добробатов"
 emergency_help_NTO: "Экстренная помощь НАТО"

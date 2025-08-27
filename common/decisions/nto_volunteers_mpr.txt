@@ -8,14 +8,6 @@ NTO_volunteers_mpr = {
 		}
 
 		complete_effect = { 
-			#add_units_to_division_template = {
-				#template_name = "Volunteer NATO battalion"
-				#regiments = {
-					#ifv_usa = 1
-					#ifv_usa = 1
-					#ifv_usa = 1
-				#}
-			#}
 			load_oob = NTO_ifv_volunteers
 			add_ideas = {
 				nto_mpr_ifv_volunteers
@@ -38,6 +30,109 @@ NTO_volunteers_mpr = {
             load_oob = NTO_tank_volunteers
 			add_ideas = {
 				nto_mpr_tank_volunteers
+			}
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	create_more_volunteers_NTO_0 = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+			UKR = {
+				surrender_progress > 0.01
+				casualties > 100000
+			}
+		}
+
+		complete_effect = { 
+            load_oob = NTO_add_inf
+			hidden_effect = {
+				set_country_flag = nto_volunteers_0
+			}
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	create_more_volunteers_NTO_1 = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+			UKR = {
+				surrender_progress > 0.01
+				casualties > 200000
+				has_country_flag = nto_volunteers_0
+			}
+		}
+
+		visible = {
+			has_country_flag = nto_volunteers_0
+		}
+
+		complete_effect = { 
+            load_oob = NTO_add_inf
+			hidden_effect = {
+				set_country_flag = nto_volunteers_1
+			}
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	create_more_volunteers_NTO_2 = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+			UKR = {
+				surrender_progress > 0.01
+				casualties > 300000
+				has_country_flag = nto_volunteers_1
+			}
+		}
+
+	    visible = {
+			has_country_flag = nto_volunteers_1
+		}
+
+		complete_effect = { 
+            load_oob = NTO_add_inf
+			hidden_effect = {
+				set_country_flag = nto_volunteers_2
+			}
+		}	
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	create_more_volunteers_NTO_3 = {
+		icon = generic_formable_nations
+		fire_only_once = yes
+
+		available = {
+			UKR = {
+				surrender_progress > 0.01
+				casualties > 400000
+				has_country_flag = nto_volunteers_2
+			}
+		}
+
+		visible = {
+			has_country_flag = nto_volunteers_2
+		}
+
+		complete_effect = { 
+            load_oob = NTO_add_inf
+			hidden_effect = {
+				set_country_flag = nto_volunteers_3
 			}
 		}	
 		
@@ -79,6 +174,7 @@ NTO_volunteers_mpr = {
 			add_ideas = {
 				nto_mpr_late_volunteers
 			}
+			load_oob = NTO_emergency_help
 		}	
 		
 		ai_will_do = {

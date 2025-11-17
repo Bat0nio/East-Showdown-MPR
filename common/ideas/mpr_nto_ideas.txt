@@ -10,7 +10,8 @@ ideas = {
                 special_forces_cap = 1
                 land_doctrine_cost_factor = -0.45
                 send_volunteers_tension = -0.50
-                industrial_factory_donations = 60
+                industrial_factory_donations = 10
+                military_factory_donations = -132
             }
         }  
         nto_mpr_no_templates = {
@@ -104,7 +105,7 @@ ideas = {
             removal_cost = -1
             picture = unknown
             modifier = {
-                industrial_capacity_factory = -0.5
+                industrial_capacity_factory = -0.6
             }
         }
     }

@@ -105,7 +105,19 @@ ideas = {
             removal_cost = -1
             picture = unknown
             modifier = {
-                industrial_capacity_factory = -0.6
+                industrial_capacity_factory = -0.7
+                land_doctrine_cost_factor = -0.35
+            }
+        }
+        mpr_dpr = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea mpr_dpr" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                industrial_capacity_factory = 0.20
+                max_planning_factor = 0.15
             }
         }
     }

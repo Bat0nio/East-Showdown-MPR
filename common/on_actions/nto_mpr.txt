@@ -88,6 +88,9 @@ on_actions = {
             }
             DPR = {
                 add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+                add_ideas = {
+                    mpr_dpr
+                }
             }
             LPR = {
                 add_timed_idea = {  idea = mpr_no_forts  days = 75 }

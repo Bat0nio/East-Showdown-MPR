@@ -107,6 +107,7 @@ ideas = {
             modifier = {
                 industrial_capacity_factory = -0.7
                 land_doctrine_cost_factor = -0.35
+                max_planning_factor = 0.20
             }
         }
         mpr_dpr = {

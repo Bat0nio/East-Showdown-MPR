@@ -50,7 +50,7 @@ ensure_unit_template_Armored_NATO_volunteer_battalion = {
 				engineer_heavy = { x = 0 y = 4 }
 				imv_recon = { x = 0 y = 5 }		
 				sniper = { x = 1 y = 0 }
-				artillery = { x = 1 y = 1 }		
+				support_spa = { x = 1 y = 1 }		
 				atgm = { x = 1 y = 2 }
 				mortar = { x = 1 y = 3 }
 			}	
@@ -79,7 +79,7 @@ ensure_unit_template_Mechanized_NATO_volunteer_battalion = {
 				engineer_heavy = { x = 0 y = 4 }
 				imv_recon = { x = 0 y = 5 }		
 				sniper = { x = 1 y = 0 }
-				artillery = { x = 1 y = 1 }		
+				support_spa = { x = 1 y = 1 }		
 				atgm = { x = 1 y = 2 }
 				mortar = { x = 1 y = 3 }
 			}	

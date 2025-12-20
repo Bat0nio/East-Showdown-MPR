@@ -370,7 +370,7 @@ on_actions = {
 
                 add_equipment_to_stockpile = {
                     type = usa_fgm148_javelin_equipment
-                    amount = -4000
+                    amount = -2900
                     producer = POL
                 }
 
@@ -388,7 +388,7 @@ on_actions = {
 
                 add_equipment_to_stockpile = {
                     type = usa_fim92_stinger_equipment
-                    amount = -6000
+                    amount = -4900
                     producer = POL
                 }
 

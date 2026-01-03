@@ -12,6 +12,14 @@ NTO_volunteers_mpr = {
 			add_ideas = {
 				nto_mpr_ifv_volunteers
 			}
+			add_mastery = {
+				amount = 200
+				track = tier_1_infantry
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_2_infantry
+			}	
 		}	
 		
 		ai_will_do = {
@@ -30,6 +38,22 @@ NTO_volunteers_mpr = {
             load_oob = NTO_tank_volunteers
 			add_ideas = {
 				nto_mpr_tank_volunteers
+			}
+			add_mastery = {
+				amount = 150
+				track = tier_1_artillery
+			}
+			add_mastery = {
+				amount = 150
+				track = tier_2_artillery
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_1_armour
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_2_armour
 			}
 		}	
 		
@@ -175,6 +199,42 @@ NTO_volunteers_mpr = {
 				nto_mpr_late_volunteers
 			}
 			load_oob = NTO_emergency_help
+			add_mastery = {
+				amount = 200
+				track = tier_1_artillery
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_2_artillery
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_3_artillery
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_1_armour
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_2_armour
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_3_armour
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_1_infantry
+			}
+			add_mastery = {
+				amount = 200
+				track = tier_2_infantry
+			}	
+			add_mastery = {
+				amount = 200
+				track = tier_3_infantry
+			}	
 		}	
 		
 		ai_will_do = {

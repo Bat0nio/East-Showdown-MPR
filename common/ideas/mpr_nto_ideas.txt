@@ -9,7 +9,7 @@ ideas = {
             modifier = {
                 special_forces_cap = 1
                 land_doctrine_cost_factor = -0.45
-                land_mastery_gain_factor = 0.45
+                land_mastery_gain_factor = 2
                 send_volunteers_tension = -0.50
                 industrial_factory_donations = 10
                 military_factory_donations = -132
@@ -112,7 +112,7 @@ ideas = {
             modifier = {
                 industrial_capacity_factory = -0.7
                 land_doctrine_cost_factor = -0.35
-                land_mastery_gain_factor = 0.35
+                land_mastery_gain_factor = 1
                 max_planning = 0.20
             }
         }
@@ -124,7 +124,7 @@ ideas = {
             picture = unknown
             modifier = {
                 industrial_capacity_factory = 0.20
-                land_mastery_gain_factor = 0.20
+                land_mastery_gain_factor = 0.5
             }
         }
     }

@@ -21,3 +21,20 @@ es_lDPR_status = {
 		allow_achievements = no
 	}
 }
+
+mpr_poland_status = {
+	name = "MPR_POLAND_STATUS"
+	group = "ES_RULE_GROUP_GAME_SETUP"
+	default = {
+		name = "PLAYER_POLAND"
+		text = "PLAYER_POLAND_TEXT"
+		desc = "PLAYER_POLAND_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NO_PLAYER_POLAND"
+		text = "NO_PLAYER_POLAND_TEXT"
+		desc = "NO_PLAYER_POLAND_DESC"
+		allow_achievements = yes
+	}
+}

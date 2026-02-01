@@ -127,5 +127,32 @@ ideas = {
                 land_mastery_gain_factor = 0.5
             }
         }
+        no_poland_player = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea no_poland_player" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                industrial_factory_donations = 100
+                military_factory_donations = 55
+				country_resource_tungsten = 40
+				country_resource_steel = 500
+				country_resource_electronic = 70
+                country_resource_rubber = 40
+            }
+        }
+        poland_resources = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea poland_resources" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+				country_resource_tungsten = 100
+				country_resource_steel = 450
+				country_resource_electronic = 40
+            }
+        }
     }
 }

@@ -265,42 +265,5 @@ UKR_force_peace_RUS = {
 			factor = 1
 		}
 	}
-
-    event_fix = {
-		icon = generic_formable_nations
-		fire_only_once = yes
-
-		available = {
-            date > 2022.10.07
-		}
-
-		complete_effect = { 
-            UKR = { 
-                set_country_flag = UKR_EnergyNightmare 
-                complete_national_focus = UKR_new_nightmare 
-            }
-		}	
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-    mil_eco = {
-		icon = generic_formable_nations
-		fire_only_once = yes
-
-		available = {
-            has_completed_focus = Increase_funding_for_the_military_industrial_complex
-		}
-
-		complete_effect = { 
-            increase_economy = yes
-		}	
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }
 

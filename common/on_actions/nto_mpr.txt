@@ -84,20 +84,10 @@ on_actions = {
                     }
                 }
             }
-            UKR = {
-                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
-            }
             DPR = {
-                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
                 add_ideas = {
                     mpr_dpr
                 }
-            }
-            LPR = {
-                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
-            }
-            RUS = {
-                add_timed_idea = {  idea = mpr_no_forts  days = 75 }
             }
             POL = {
                 add_ideas = {
@@ -108,6 +98,26 @@ on_actions = {
 					is_locked = no
 				}
             }
+            if = { 
+				limit = { 
+					has_start_date = 2022.01.01
+				}
+                UKR = {
+                    add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+                }
+                DPR = {
+                    add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+                    add_ideas = {
+                        mpr_dpr
+                    }
+                }
+                LPR = {
+                    add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+                }
+                RUS = {
+                    add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+                }
+			}
         }
     }
 }

@@ -8,7 +8,7 @@ UKR_force_peace_RUS = {
             controls_state = 54
             surrender_progress < 0.05
             RUS = {
-                casualties > 200000
+                casualties > 300000
             }
 		}
 
@@ -67,7 +67,7 @@ UKR_force_peace_RUS = {
             controls_state = 205
             surrender_progress < 0.05
             RUS = {
-                casualties > 200000
+                casualties > 300000
             }
 		}
 
@@ -128,7 +128,7 @@ UKR_force_peace_RUS = {
             controls_state = 194
             surrender_progress < 0.05
             RUS = {
-                casualties > 200000
+                casualties > 300000
             }
 		}
 
@@ -191,7 +191,7 @@ UKR_force_peace_RUS = {
             controls_state = 576
             surrender_progress < 0.05
             RUS = {
-                casualties > 200000
+                casualties > 300000
             }
 		}
 

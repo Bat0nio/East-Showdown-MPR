@@ -11,6 +11,9 @@ RUS_debug_mpr = {
 			tag = RUS
 			has_war_with = UKR
 			has_completed_focus = RUS_begin_partial_mobilization
+			WGN = {
+			    is_puppet_of = RUS
+			}
 		}
 		visible = {
 			has_war_with = UKR

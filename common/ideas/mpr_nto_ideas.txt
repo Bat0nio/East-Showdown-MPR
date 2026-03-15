@@ -125,7 +125,6 @@ ideas = {
             picture = unknown
             modifier = {
                 industrial_capacity_factory = 0.20
-                land_mastery_gain_factor = 1.5
                 max_planning = 0.20
             }
         }

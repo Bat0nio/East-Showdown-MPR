@@ -24,6 +24,7 @@ ensure_unit_template_Volunteer_NATO_battalion = {
 				artillery = { x = 1 y = 1 }		
 				atgm = { x = 1 y = 2 }
 				mortar = { x = 1 y = 3 }
+				fpv_team = { x = 1 y = 4}
 			}	
 		}
 	}
@@ -53,6 +54,7 @@ ensure_unit_template_Armored_NATO_volunteer_battalion = {
 				support_spa = { x = 1 y = 1 }		
 				atgm = { x = 1 y = 2 }
 				mortar = { x = 1 y = 3 }
+				fpv_team = { x = 1 y = 4}
 			}	
 		}
 	}
@@ -82,6 +84,7 @@ ensure_unit_template_Mechanized_NATO_volunteer_battalion = {
 				support_spa = { x = 1 y = 1 }		
 				atgm = { x = 1 y = 2 }
 				mortar = { x = 1 y = 3 }
+				fpv_team = { x = 1 y = 4}
 			}	
 		}
 	}

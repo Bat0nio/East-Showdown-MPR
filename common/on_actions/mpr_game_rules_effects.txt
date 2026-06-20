@@ -1,0 +1,77 @@
+on_actions = {
+	on_startup = {
+		effect = {
+            if = {
+				limit = {
+					has_game_rule = {
+						rule = MPR_POLAND_STATUS
+                        option = NO_PLAYER_POLAND
+					}
+				}
+                NBA = {
+                    annex_country = {
+                        target = POL
+                        transfer_troops = no
+                    }
+                    every_owned_state = {
+                        add_core_of = NBA
+                    }
+                    give_military_access = NTO
+                    give_military_access = UKR
+                }
+                UKR = {
+                    country_event = { id = mpr.1 days = 150 }
+                }
+                NTO = {
+                    add_ideas = {
+                        poland_resources
+                    }
+                }
+            }
+        }
+        effect = {
+            if = {
+				limit = {
+					has_game_rule = {
+						rule = ES_LDPR_STATUS
+                        option = ES_LDPR_UNITED
+					}
+				}
+                LPR = {
+                    every_unit_leader = {
+                        set_nationality = DPR
+                    }
+                    every_army_leader = {
+                        set_nationality = DPR
+                    }
+                }
+                DPR = {
+                    annex_country = {
+                        target = LPR
+                        transfer_troops = yes
+                    }
+                    every_owned_state = {
+                        limit = { is_core_of = LPR }
+                        add_core_of = DPR
+                        remove_core_of = LPR
+                    }
+                    set_cosmetic_tag = NVR
+                    set_country_flag = GFX_nvr_flag
+                    set_global_flag = novorossia_suchestvuet
+                    remove_country_leader_role = {
+                        character = denis_pushilin
+                        ideology = left_nationalism
+                    }
+                    add_country_leader_role = {
+                        character = alexander_khodakovsky
+                        promote_leader = yes
+                        country_leader = {  
+                            ideology = left_nationalism
+                        }
+                    }
+                    set_party_name = {  ideology = fascism long_name = DPR_Novorossia_party_long  name = DPR_Novorossia_party }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+
+MPR_LDPR_DRAFT = {
+	allowed = {
+		tag = DPR
+	}
+
+	visible = {
+		tag = DPR
+	}
+
+	visible_when_empty = yes
+
+	priority = 3000
+}

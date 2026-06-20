@@ -1,7 +1,7 @@
 NDefines.NGame.START_DATE = "2022.1.1.1"
 NDefines.NGame.END_DATE = "2026.1.1.1"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 0.514					-- Yes we did the math
-NDefines.NGame.SAVE_VERSION = 24								-- 0.7.1.1
+NDefines.NGame.SAVE_VERSION = 26								-- 0.7.1.3
 NDefines.NGame.HANDS_OFF_START_TAG = "URG"		-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
 NDefines.NGame.TRADE_ROUTE_RECALCULATE_FREQUENCY_DAYS = 30 -- Max recalculation time for all trade routes (0 means we do not recalucate prediodically trade routes)
 NDefines.NDiplomacy.EQUIPMENT_PURCHASE_ACCEPTANCE_OPINION = 1.1                        -- Acceptance factor for opinion
@@ -95,9 +95,9 @@ NDefines.NMilitary.WAR_SCORE_LEND_LEASE_GIVEN_IC_FACTOR = 0.001  				-- war scor
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_GIVEN_FUEL_FACTOR = 0.001  			-- war score gained for every 100 units of fuel lend lease sent to allies
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_RECEIVED_IC_FACTOR = 0.001  			-- war score deducted for every IC of lend lease received from allies
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_RECEIVED_FUEL_FACTOR = 0.001 		-- war score deducted for every 100 units of fuel lend lease received from allies
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 50			-- how many divisions a corps commander is limited to. 0 = inf < 0 = blocked
 NDefines.NMilitary.DIVISION_SIZE_FOR_XP = 8                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
 NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1			-- how many armies a corps commander is limited to. 0 = inf < 0 = blocked
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50			-- how many divisions a field marshall is limited to. 0 = inf < 0 = blocked
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 10				-- how many armies a field marshall is limited to. 0 = inf < 0 = blocked
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.036    -- was 0.025 pre air attack changes 0.032 vanilla   air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.036    --was 0.030 pre air attack changes 0.032 vanilla   global damage modifie
@@ -136,7 +136,6 @@ NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.45                    -- vanila 0.5 b
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.15 					   -- vanilla -0.15 fort penalty
 NDefines.NMilitary.MULTIPLE_COMBATS_PENALTY = -0.5               -- defender penalty if attacked from multiple directions
 NDefines.NMilitary.DIG_IN_FACTOR = 0.03						   --vanila 0.02 bonus factor for each dug-in level
-NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.1 -- #was 0.1 XP gain per unit in combat
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.20          -- #was -0.35 effect on defense due to enemy air superiorty
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.75	       -- more AA attack will approach this amount of help (diminishing returns)
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 625 -- how quickly defense approaches the max impact diminishing returns curve
@@ -493,5 +492,6 @@ NDefines.NDoctrines.MAX_MONTHLY_MASTERY_GAIN = 1200 --50
 NDefines.NDoctrines.MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 1 --5.0
 NDefines.NDoctrines.TRAINING_MASTERY_GAIN_FACTOR = 0.00 -- 0.1
 
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50 --100
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 200 --50
+NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.04 --0.1
 NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.7 -- -0.1

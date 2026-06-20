@@ -33,7 +33,7 @@ ideas = {
             removal_cost = -1
             picture = unknown
             modifier = {
-                send_volunteer_size = 8
+                send_volunteer_size = 9
                 air_volunteer_cap = -10
             }
         }  

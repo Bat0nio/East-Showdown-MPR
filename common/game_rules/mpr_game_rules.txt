@@ -14,12 +14,6 @@ es_lDPR_status = {
 		desc = "ES_LDPR_UNITED_DESC"
 		allow_achievements = yes
 	}
-	option = {
-		name = "ES_LDPR_ANNEXED"
-		text = "ES_LDPR_ANNEXED_TEXT"
-		desc = "ES_LDPR_ANNEXED_DESC"
-		allow_achievements = no
-	}
 }
 
 mpr_poland_status = {

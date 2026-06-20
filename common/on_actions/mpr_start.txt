@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {			
+            UKR = {
+				every_army_leader = {
+					limit = { has_trait = brigadier_general }
+					remove_trait = { trait = brigadier_general }
+				}
+			}
+        }
+    }
+}

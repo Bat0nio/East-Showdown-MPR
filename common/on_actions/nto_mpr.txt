@@ -62,27 +62,6 @@ on_actions = {
                         nto_mpr_redut_volunteers
                     }
                 }
-                if = {
-                    limit = {
-                        NBA = {
-                            controls_state = 228
-                        }
-                    }
-                    add_ideas = {
-                        nto_mpr_delete_extra_factories
-                    }
-                }
-                if = {
-                    limit = {
-                        NTO = {
-                            controls_state = 228
-                        }
-                    }
-                    add_manpower = -9999999
-                    add_ideas = {
-                        nto_mpr_delete_extra_factories
-                    }
-                }
             }
             DPR = {
                 add_ideas = {
@@ -118,6 +97,25 @@ on_actions = {
                     add_timed_idea = {  idea = mpr_no_forts  days = 75 }
                 }
 			}
+            if = {
+                limit = {
+                    OR = {
+                        has_game_rule = {
+                            rule = ES_NATO_STATUS
+                            option = ES_NATO_ONLY_MAIN_BASE
+                        }
+                        has_game_rule = {
+                            rule = ES_NATO_STATUS
+                            option = ES_NATO_UNITED
+                        }
+                    }
+                }
+                NTO = {
+                    add_ideas = {
+                        nto_mpr_delete_extra_factories
+                    }
+                }
+            }
         }
     }
 }

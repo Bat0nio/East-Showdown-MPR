@@ -1,7 +1,6 @@
 NDefines.NGame.START_DATE = "2022.1.1.1"
 NDefines.NGame.END_DATE = "2026.1.1.1"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 0.514					-- Yes we did the math
-NDefines.NGame.SAVE_VERSION = 24								-- 0.7.1.3
 NDefines.NGame.HANDS_OFF_START_TAG = "URG"		-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
 NDefines.NGame.TRADE_ROUTE_RECALCULATE_FREQUENCY_DAYS = 30 -- Max recalculation time for all trade routes (0 means we do not recalucate prediodically trade routes)
 NDefines.NDiplomacy.EQUIPMENT_PURCHASE_ACCEPTANCE_OPINION = 1.1                        -- Acceptance factor for opinion
@@ -492,6 +491,20 @@ NDefines.NDoctrines.MAX_MONTHLY_MASTERY_GAIN = 1200 --50
 NDefines.NDoctrines.MASTERY_BAR_ANIMATION_SPEED_PER_DAILY_MASTERY = 1 --5.0
 NDefines.NDoctrines.TRAINING_MASTERY_GAIN_FACTOR = 0.00 -- 0.1
 
+NDefines.NMilitary.COMMS_MAX_DISTANCE = 10										-- If N is >= the size of the below arrays, the last value will be considered repeated
+NDefines.NMilitary.PLANNING_CAP_COMMS_SCALING = { 1.0, 1.0, 1.0, 0.9, 0.9, 0.8, 0.8, 0.7, 0.7, 0.6, 0.6 }		-- Value at index J is the scaling applied to planning cap when HQ is J provinces behind the frontline
+NDefines.NMilitary.PLANNING_CAP_NO_HQ_SCALING = 0.6							-- Scaling applied to planning cap when there's no HQ (no leader or leader not deployed or not the same root order)
+NDefines.NMilitary.PLANNING_SPEED_COMMS_SCALING = { 1.0, 1.0, 1.0, 0.9, 0.9, 0.8, 0.8, 0.7, 0.7, 0.6, 0.6 }		-- Same as PLANNING_CAP_COMMS_SCALING but for planning speed
+NDefines.NMilitary.PLANNING_SPEED_NO_HQ_SCALING = 0.6								-- Same as PLANNING_CAP_NO_HQ_SCALING but for planning speed
+NDefines.NMilitary.LEADER_MOD_COMMS_SCALING = { 1.10, 1.10, 1.10, 1.05, 1.05, 1.00, 1.00, 1.0, 1.0, 1.0, 1.0 }		-- Same as PLANNING_CAP_COMMS_SCALING but for leader modifiers
+NDefines.NMilitary.LEADER_MOD_NO_HQ_SCALING = 1.0								-- Same as PLANNING_CAP_NO_HQ_SCALING but for leader modifiers
+NDefines.NMilitary.ABILITY_COMMS_SCALING = { 1.10, 1.10, 1.10, 1.05, 1.05, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 }	-- Same as PLANNING_CAP_COMMS_SCALING but for active abilities
+NDefines.NMilitary.ABILITY_NO_HQ_SCALING = 1.0						-- Same as PLANNING_CAP_NO_HQ_SCALING but for active abilities
+NDefines.NMilitary.GENERAL_PROXIMITY_CLOSE = 2								-- At the "close" proximity setting, the general should stay this many provinces behind the frontline
+NDefines.NMilitary.GENERAL_PROXIMITY_MEDIUM = 4									-- At the "medium" proximity setting, the general should stay this many provinces behind the frontline
+NDefines.NMilitary.GENERAL_PROXIMITY_FAR = 6									-- At the "far" proximity setting, the general should stay this many provinces behind the frontline
+NDefines.NMilitary.GENERAL_PROXIMITY_DEFAULT = 1									-- The default proximity setting for a deployed general. This number should correspond to one of the values above
+NDefines.NGame.SAVE_VERSION = 24
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 200 --50
 NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.04 --0.1
 NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.7 -- -0.1

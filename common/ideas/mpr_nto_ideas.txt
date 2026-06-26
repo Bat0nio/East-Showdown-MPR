@@ -166,5 +166,15 @@ ideas = {
 				trade_cost_for_target_factor = -0.33
 			}
         }
+        test_dig_in = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea test_dig_in" }
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+            picture = unknown
+            modifier = {
+                max_dig_in_factor = -0.5
+            }
+        }
     }
 }

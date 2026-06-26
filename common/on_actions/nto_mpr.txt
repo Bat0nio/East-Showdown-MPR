@@ -17,7 +17,6 @@ on_actions = {
                 }
                 set_country_flag = nto_mpr_on
                 load_oob = NTO_start_units
-                country_lock_all_division_template = yes
 
                 delete_unit_template_and_units = {
                     division_template = "UK NATO battalion"
@@ -83,6 +82,7 @@ on_actions = {
 				}
                 UKR = {
                     add_timed_idea = {  idea = mpr_no_forts  days = 75 }
+                    add_timed_idea = {  idea = test_dig_in  days = 120 }
                 }
                 DPR = {
                     add_timed_idea = {  idea = mpr_no_forts  days = 75 }

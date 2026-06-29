@@ -7,6 +7,12 @@ on_actions = {
 					remove_trait = { trait = brigadier_general }
 				}
 			}
+			LIT = {	
+				give_military_access = RUS
+			}
+			NBA	= {	
+				give_military_access = RUS
+			}		
         }
     }
 }

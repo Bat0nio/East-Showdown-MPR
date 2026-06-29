@@ -7,12 +7,26 @@ on_actions = {
 					remove_trait = { trait = brigadier_general }
 				}
 			}
-			LIT = {	
-				give_military_access = RUS
+			if = {
+				limit = {
+					any_country = {
+						original_tag = LIT
+					}
+				}
+				LIT = {	
+					give_military_access = RUS
+				}
 			}
-			NBA	= {	
-				give_military_access = RUS
-			}		
+			if = {
+				limit = {
+					any_country = {
+						original_tag = NBA
+					}
+				}
+				NBA = {	
+					give_military_access = RUS
+				}
+			}	
         }
     }
 }

@@ -8,7 +8,6 @@ on_actions = {
                 }
                 add_ideas = {
                     nto_mpr
-                    nto_mpr_no_templates
                     nto_mpr_start_volunteers
                     trade_buff
                 }
@@ -65,6 +64,7 @@ on_actions = {
             DPR = {
                 add_ideas = {
                     mpr_dpr
+                    no_airforce
                 }
             }
             POL = {
@@ -76,18 +76,33 @@ on_actions = {
 					is_locked = no
 				}
             }
+            WGN = {
+                add_ideas = {
+                    no_airforce
+                }
+            }
+            CHE = {
+                add_ideas = {
+                    no_airforce
+                }
+            }
+            LPR = {
+                add_ideas = {
+                    no_airforce
+                }
+            }
             if = { 
 				limit = { 
 					has_start_date = 2022.01.01
 				}
                 UKR = {
                     add_timed_idea = {  idea = mpr_no_forts  days = 75 }
-                    add_timed_idea = {  idea = test_dig_in  days = 120 }
                 }
                 DPR = {
                     add_timed_idea = {  idea = mpr_no_forts  days = 75 }
                     add_ideas = {
                         mpr_dpr
+                        no_airforce
                     }
                 }
                 LPR = {
@@ -97,6 +112,18 @@ on_actions = {
                     add_timed_idea = {  idea = mpr_no_forts  days = 75 }
                 }
 			}
+            if = {
+                limit = {
+                    any_country = {
+                        original_tag = RDT
+                    }
+                }
+                RDT = {
+                    add_ideas = {
+                        no_airforce
+                    }
+                }
+            }
             if = {
                 limit = {
                     OR = {

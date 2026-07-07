@@ -15,17 +15,7 @@ ideas = {
                 industrial_factory_donations = 10
                 military_factory_donations = -132
             }
-        }  
-        nto_mpr_no_templates = {
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_no_tanks" }
-            allowed = { always = no }
-            allowed_civil_war = { always = no }
-            removal_cost = -1
-            picture = unknown
-            modifier = {
-                unit_ifv_usa_design_cost_factor = 500
-            }
-        }
+        } 
         nto_mpr_start_volunteers = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea nto_mpr_start_volunteers" }
             allowed = { always = no }
@@ -167,14 +157,15 @@ ideas = {
 				trade_cost_for_target_factor = -0.33
 			}
         }
-        test_dig_in = {
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea test_dig_in" }
+        no_airforce = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea no_airforce" }
             allowed = { always = no }
             allowed_civil_war = { always = no }
             removal_cost = -1
             picture = unknown
             modifier = {
-                max_dig_in_factor = -0.5
+                air_mission_efficiency = -2
+                army_intel_factor = 0.15
             }
         }
     }

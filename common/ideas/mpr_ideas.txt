@@ -8,12 +8,13 @@ ideas = {
             picture = unknown
             modifier = {
                 lend_lease_tension = 1
-                special_forces_cap = 1
                 land_doctrine_cost_factor = -0.45
                 land_mastery_gain_factor = 2
                 send_volunteers_tension = -0.50
                 industrial_factory_donations = 10
                 military_factory_donations = -132
+                special_forces_min = -400
+                #special_forces_cap = -1
             }
         } 
         nto_mpr_start_volunteers = {
@@ -71,6 +72,7 @@ ideas = {
                 send_volunteer_size = 100
                 military_factory_donations = 200
                 army_speed_factor = -0.15
+                special_forces_min = 1200
             }
         }  
         nto_mpr_delete_extra_factories = {
@@ -169,4 +171,68 @@ ideas = {
             }
         }
     }
+    hidden_ideas = {
+		nto_no_templates = {
+			picture = GFX_404
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {			
+				unit_apc_design_cost_factor = 1024
+				unit_artillery_design_cost_factor = 1024
+				unit_support_spa_design_cost_factor = 1024
+				unit_support_mlrs_design_cost_factor = 1024
+				unit_support_heavy_spa_design_cost_factor = 1024
+				unit_support_tos_design_cost_factor = 1024
+				unit_sniper_design_cost_factor = 1024
+				unit_fpv_team_design_cost_factor = 1024
+				unit_recon_ifv_heavy_sov_design_cost_factor = 1024
+				unit_recon_ifv_heavy_nto_design_cost_factor = 1024
+				unit_armored_recon_design_cost_factor = 1024
+				unit_afv_recon_design_cost_factor = 1024
+				unit_imv_recon_design_cost_factor = 1024
+				unit_imv_light_recon_design_cost_factor = 1024
+				unit_unnamed_vehicle_support_design_cost_factor = 1024
+				unit_lancet_design_cost_factor = 1024
+				unit_ifv_sov_design_cost_factor = 1024
+				unit_unnamed_vehicle_design_cost_factor = 1024
+				unit_afv_sov_design_cost_factor = 1024
+				unit_ifv_usa_design_cost_factor = 1024
+				unit_ifv_ger_design_cost_factor = 1024
+				unit_ifv_eng_design_cost_factor = 1024
+				unit_ifv_fra_design_cost_factor = 1024
+				unit_ifv_ita_design_cost_factor = 1024
+				unit_ifv_swe_design_cost_factor = 1024
+				unit_bmpt_design_cost_factor = 1024
+				unit_ifv_heavy_sov_design_cost_factor = 1024
+				unit_ifv_heavy_nto_design_cost_factor = 1024
+				unit_infantry_design_cost_factor = 1024
+				unit_opolchenie_design_cost_factor = 1024
+				unit_prisoners_design_cost_factor = 1024
+				unit_PMC_wagner_design_cost_factor = 1024
+				unit_assault_infantry_design_cost_factor = 1024
+				unit_border_guard_design_cost_factor = 1024
+
+				unit_sp_heavy_art_design_cost_factor = 1024
+				unit_towed_art_design_cost_factor = 1024
+				unit_sp_art_design_cost_factor = 1024
+				unit_TOS_design_cost_factor = 1024
+				unit_MRLS_design_cost_factor = 1024
+
+				unit_tank_sov_design_cost_factor = 1024
+				unit_tank_usa_design_cost_factor = 1024
+				unit_tank_ger_design_cost_factor = 1024
+				unit_tank_eng_design_cost_factor = 1024
+				unit_tank_fra_design_cost_factor = 1024
+				unit_tank_ita_design_cost_factor = 1024
+				unit_light_tank_sov_design_cost_factor = 1024
+				unit_light_tank_nto_design_cost_factor = 1024
+				unit_sp_atgm_design_cost_factor = 1024
+			}
+	    }
+	}
 }

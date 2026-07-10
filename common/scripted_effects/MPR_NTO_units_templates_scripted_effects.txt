@@ -4,7 +4,7 @@ ensure_unit_template_Volunteer_NATO_battalion = {
 	if = { limit = { NOT = { has_template = "Volunteer NATO battalion" } }
 		division_template = {
 			name = "Volunteer NATO battalion"
-			is_locked = yes
+			is_locked = no
 			force_allow_recruiting = no
 			regiments = {
 				spetsnaz = { x = 0 y = 0 }

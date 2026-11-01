@@ -82,8 +82,8 @@ ideas = {
             removal_cost = -1
             picture = unknown
             modifier = {
-                industrial_factory_donations = -280
-                military_factory_donations = -173
+                industrial_factory_donations = -275
+                military_factory_donations = -174
             }
         }
         mpr_no_forts = {
@@ -181,23 +181,38 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			modifier = {			
+			modifier = {
+				# Allowed battalions (shown in NTO designer)
+				unit_marine_design_cost_factor = 15
+				unit_mountaineers_design_cost_factor = 15
+				unit_paratrooper_design_cost_factor = 15
+				unit_spetsnaz_design_cost_factor = 15
+				unit_infantry_design_cost_factor = 15
+				unit_opolchenie_design_cost_factor = 15
+
+				# Recon companies
+				unit_recon_design_cost_factor = 100
+				unit_recon_ifv_sov_design_cost_factor = 100
+				unit_recon_ifv_usa_design_cost_factor = 100
+				unit_recon_ifv_heavy_sov_design_cost_factor = 100
+				unit_recon_ifv_heavy_nto_design_cost_factor = 100
+				unit_armored_recon_design_cost_factor = 100
+				unit_afv_recon_design_cost_factor = 100
+				unit_imv_recon_design_cost_factor = 100
+				unit_imv_light_recon_design_cost_factor = 100
+
+				# Regimental support
+				unit_mortar_design_cost_factor = 50
+				unit_atgm_design_cost_factor = 50
+				unit_sp_support_atgm_design_cost_factor = 50
+				unit_light_support_tank_sov_design_cost_factor = 50
+				unit_light_support_tank_nto_design_cost_factor = 50
+				unit_sniper_design_cost_factor = 50
+
+				# All other battalions
 				unit_apc_design_cost_factor = 1024
-				unit_artillery_design_cost_factor = 1024
-				unit_support_spa_design_cost_factor = 1024
-				unit_support_mlrs_design_cost_factor = 1024
-				unit_support_heavy_spa_design_cost_factor = 1024
-				unit_support_tos_design_cost_factor = 1024
-				unit_sniper_design_cost_factor = 1024
-				unit_fpv_team_design_cost_factor = 1024
-				unit_recon_ifv_heavy_sov_design_cost_factor = 1024
-				unit_recon_ifv_heavy_nto_design_cost_factor = 1024
-				unit_armored_recon_design_cost_factor = 1024
-				unit_afv_recon_design_cost_factor = 1024
-				unit_imv_recon_design_cost_factor = 1024
-				unit_imv_light_recon_design_cost_factor = 1024
-				unit_unnamed_vehicle_support_design_cost_factor = 1024
-				unit_lancet_design_cost_factor = 1024
+				unit_hq_imv_design_cost_factor = 1024
+				unit_hq_apc_design_cost_factor = 1024
 				unit_ifv_sov_design_cost_factor = 1024
 				unit_unnamed_vehicle_design_cost_factor = 1024
 				unit_afv_sov_design_cost_factor = 1024
@@ -210,19 +225,17 @@ ideas = {
 				unit_bmpt_design_cost_factor = 1024
 				unit_ifv_heavy_sov_design_cost_factor = 1024
 				unit_ifv_heavy_nto_design_cost_factor = 1024
-				unit_infantry_design_cost_factor = 1024
-				unit_opolchenie_design_cost_factor = 1024
 				unit_prisoners_design_cost_factor = 1024
 				unit_PMC_wagner_design_cost_factor = 1024
 				unit_assault_infantry_design_cost_factor = 1024
+				unit_assault_paratrooper_design_cost_factor = 1024
 				unit_border_guard_design_cost_factor = 1024
-
+				unit_dprk_assault_infantry_design_cost_factor = 1024
 				unit_sp_heavy_art_design_cost_factor = 1024
 				unit_towed_art_design_cost_factor = 1024
 				unit_sp_art_design_cost_factor = 1024
 				unit_TOS_design_cost_factor = 1024
 				unit_MRLS_design_cost_factor = 1024
-
 				unit_tank_sov_design_cost_factor = 1024
 				unit_tank_usa_design_cost_factor = 1024
 				unit_tank_ger_design_cost_factor = 1024
@@ -231,7 +244,6 @@ ideas = {
 				unit_tank_ita_design_cost_factor = 1024
 				unit_light_tank_sov_design_cost_factor = 1024
 				unit_light_tank_nto_design_cost_factor = 1024
-				unit_sp_atgm_design_cost_factor = 1024
 			}
 	    }
 	}
